@@ -68,3 +68,30 @@ $on-laptop:        780px;
         "color",
         "syntax-highlighting"
 ;
+
+
+// Adding 'Contents' headline to the TOC
+.markdown-toc::before {
+    content: "Daftar Isi";
+    font-weight: bold;
+}
+
+
+// Using numbers instead of bullets for listing
+.markdown-toc ul {
+    list-style: decimal;
+}
+
+.markdown-toc {
+    border: 1px solid #aaa;
+    padding: 1.5em;
+    list-style: decimal;
+    display: inline-block;
+}
+
+.article-content {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+
+}
+

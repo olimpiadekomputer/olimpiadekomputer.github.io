@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  
+    {% for post in site.algoritma %}
+       <div class="article-content" itemprop="articleBody">
+        {{ post.content }}
+      </div>
+    {% endfor %}
+
+  <footer class="article-footer">
+  <hr/>
+  </footer>
+  
+  {% include dq.html %}
+
+</article>

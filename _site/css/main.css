@@ -1485,3 +1485,20 @@ green     #859900  operators, other keywords
     color: #268bd2; }
   .highlight .il {
     color: #2aa198; }
+
+.markdown-toc::before {
+  content: "Daftar Isi";
+  font-weight: bold; }
+
+.markdown-toc ul {
+  list-style: decimal; }
+
+.markdown-toc {
+  border: 1px solid #aaa;
+  padding: 1.5em;
+  list-style: decimal;
+  display: inline-block; }
+
+.article-content {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em; }

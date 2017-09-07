@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post">
+    <div class="article-content">
+      {{ page.content }}
+    </div>
+    <div class="markdown-toc">
+      <ul>
+        {% for post in site.algoritma %} 
+          <li>{{ post.title }} </li>
+        {% endfor %}
+        </ul>
+    </div>
+
+    {% for post in site.algoritma %}
+       <div class="article-content">
+        {{ post.content }}
+      </div>
+    {% endfor %}
+  
+  <hr/>
+  </footer>
+
+  {% include dq.html %}
+
+</article>
+

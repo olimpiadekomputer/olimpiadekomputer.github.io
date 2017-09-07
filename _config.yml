@@ -21,11 +21,16 @@ description: > # this means to ignore newlines until "baseurl:"
 markdown: kramdown
 kramdown:
   input: GFM
+  parse_block_html: true
 
 # Third-party services
 # just leave someone empty to disable it
 # google_analytics: 
-disqus_shortname:
+# disqus_shortname:
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
+
+collections:
+  algoritma:
+    output: true
