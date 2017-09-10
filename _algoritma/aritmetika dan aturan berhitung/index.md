@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Aritmetika dan aturan berhitung
 order: 1
 subsections:
