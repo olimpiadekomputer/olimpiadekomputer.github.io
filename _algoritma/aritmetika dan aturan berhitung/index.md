@@ -21,16 +21,17 @@ Memahami konsep operasi modular. Operasi $$a \bmod m$$, atau biasa disebut "$$a$
 Bilangan prima adalah bilangan bulat positif yang hanya habis dibagi oleh 1 dan dirinya sendiri. Memahami algoritma-algoritma untuk mengecek bilangan prima, menghasilkan bilangan prima, ataupun melakukan faktorisasi prima.
 - #### KPK dan FPB
 Mencari KPK dan FPB dengan memanfaatkan faktorisasi prima.
+
 - #### Pigeonhole Principle
 Konsep PHP menyatakan bahwa "Jika ada $$N$$ burung dan $$M$$ sangkar, dimana $$N > M$$ , maka ada sangkar yang berisi setidaknya 2 ekor burung".
 Secara matematis, jika ada $$N$$ burung dan $$M$$ sangkar, maka ada sangkar yang berisi setidaknya $$\big\lceil \frac{N}{M} \big\rceil$$ ekor burung.
 - #### Aturan perkalian dan penjumlahan
 
-Ini gmana jelasinnya deeeeh
-
 - #### Permutasi dan kombinasi
 Permutasi dari $$N$$ adalah seluruh cara pengurutan $$N$$ objek tersebut. Banyaknya permutasi dari $$N$$ dinyatakan dalam faktorial, atau $$N!$$. Kombinasi adalah banyaknya cara mengambil $$K$$ buah objek dari $$N$$ pilihan yang ada, tanpa memerdulikan urutan. Notasi kombinasi ini dinyatakan dalam $$C^{N}_{K}$$.
+
 - #### Probabilitas
+Menghitung kemungkinan terjadinya suatu persistiwa. Secara umum, probabilitas direpresentasikan dalam bentuk $$\frac{A}{B}$$ dimana A adalah total cara terjadinya peristiwa yang diinginkan dan B adalah total cara terjadinya semua peristiwa. Sebagai contoh, jika terdapat $$N$$ bola merah dan $$M$$ bola biru, dan Anda mengambil tepat 2 bola secara acak, berapa kemungkinan bahwa kedua bola berwarna biru? Banyaknya cara mengambil 2 bola biru adalah $$C^{N}_{2}$$ dan banyaknya cara mengambil 2 bola sembarang warna adalah $$C^{N+M}_{2}$$.
 
 - #### Prinsip Inklusi dan Eksklusi
 
@@ -88,6 +89,18 @@ Maka, solusi secara umum
 	<details>
 	<summary>[Solusi]</summary>
 	Hitung KPK dari seluruh masukan
+	</details>
+
+- [OSN 2006: Faktorial](https://training.ia-toki.org/problemsets/70/problems/352/)
+	<details>
+	<summary>[Solusi]</summary>
+	Menghitung nilai asli dari N! tidak memungkinkan karena terlalu besar. Namun, kita cukup mencari banyaknya faktor 2 dan 5 dari N!, karena 2*5 = 10 (menghasilkan digit 0)
+	</details>
+
+- [OSN 2007: Permutasi Ekspresi](https://training.ia-toki.org/problemsets/69/problems/351/)
+	<details>
+	<summary>[Solusi]</summary>
+	Lakukan simulasi, cari semua permutasi ekspresi yang valid. Karena masukan paling besar adalah 13 digit), maka ada 12 tempat di mana kita dapat menyelipkan operator '+', '-', atau tanpa operator. Sehingga total semua cara yang valid hanyalah 3^12. Untuk mengecek hasil ekspresi yang unik, cukup simpan seluruh hasil di array dan lakukan pengurutan.
 	</details>
 
 - [Codeforces: Random Teams](http://codeforces.com/problemset/problem/478/B)
