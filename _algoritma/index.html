@@ -1,0 +1,26 @@
+---
+layout: default
+title: Home
+---
+
+<h1> Kurikulum Algoritma </h1>
+
+<p> Berikut adalah rangkuman kurikulum OSN 2017. </p>
+
+
+<div class="posts">
+  <ol>{% for post in site.algoritma %}
+    {% if post.title != "Home" %}
+    <div class="post">
+      <li> <h2 class="post-title"> 
+        <a href="{{ site.baseurl }}/{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h1> </li>
+      {% assign excerpt = post.content | split: site.excerpt_separator %}
+      {{ excerpt[0] }}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </ol>
+</div>
