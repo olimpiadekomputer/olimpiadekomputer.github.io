@@ -13,12 +13,15 @@ title: Home
     {% if post.title != "Home" %}
     <div class="post">
       <li> <h2 class="post-title"> 
-        <a href="{{ site.baseurl }}/{{ post.url }}">
+        <a href="{{ site.url }}{{ post.url }}">
           {{ post.title }}
         </a>
       </h1> </li>
       {% assign excerpt = post.content | split: site.excerpt_separator %}
       {{ excerpt[0] }}
+      <a href="{{ site.url }}{{ post.url }}">
+          Solusi serta soal-soal latihan lainnya tentang {{post.title}}
+        </a>
     </div>
     {% endif %}
   {% endfor %}
