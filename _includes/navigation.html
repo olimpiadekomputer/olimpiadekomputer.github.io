@@ -10,7 +10,7 @@
             {% if entry.subsections %}
             <ul>
                 {% for sub in entry.subsections %}
-                <li> <a href="{{ site.baseurl }}{{ entry.url }}/#{{ sub | replace:" ","-" | downcase }}">{{ sub }} </li>
+                <li> <a href="{{ site.baseurl }}{{ entry.url }}#{{ sub | replace:" ","-" | downcase }}">{{ sub }} </li>
                 {% endfor %}
             </ul>
             {% endif %}
