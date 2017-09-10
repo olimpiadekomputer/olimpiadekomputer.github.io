@@ -33,7 +33,7 @@
 </head>
 
 
-  <body>
+  <body class="layout-reverse">
 
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
@@ -43,8 +43,8 @@
 <div class="sidebar" id="sidebar">
   <nav class="sidebar-nav">
 
-  <h3> <a href="/algoritma">Algoritma </h3>
-  <a class="sidebar-nav-item" href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html">Aritmetika dan aturan berhitung</a><ul><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#aritmetika-modular">Aritmetika modular </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#bilangan-prima">Bilangan prima </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#kpk-dan-fpb">KPK dan FPB </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#pigeonhole-principle">Pigeonhole Principle </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#aturan-perkalian-dan-penjumlahan">Aturan perkalian dan penjumlahan </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#permutasi-dan-kombinasi">Permutasi dan kombinasi </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#probabilitas">Probabilitas </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#prinsip-inklusi-dan-eksklusi">Prinsip Inklusi dan Eksklusi </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#segitiga-pascal">Segitiga Pascal </li></ul><a class="sidebar-nav-item" href="/algoritma/pengurutan%20dan%20pencarian/index.html">Pengurutan dan Pencarian</a><ul><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#bubble-sort">Bubble Sort </li><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#insertion-sort">Insertion Sort </li><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#counting-sort">Counting Sort </li><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#merge-dan-quick-sort">Merge dan Quick Sort </li><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#linear-search">Linear Search </li><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#binary-search">Binary Search </li></ul><a class="sidebar-nav-item" href="/algoritma/brute%20force/index.html">Brute Force</a>
+  <h3> <a class="sidebar-item" href="/algoritma">Algoritma </h3>
+  <a class="sidebar-nav-item" href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html">Aritmetika dan aturan berhitung</a><ul><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#aritmetika-modular">Aritmetika modular </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#bilangan-prima">Bilangan prima </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#kpk-dan-fpb">KPK dan FPB </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#pigeonhole-principle">Pigeonhole Principle </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#aturan-perkalian-dan-penjumlahan">Aturan perkalian dan penjumlahan </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#permutasi-dan-kombinasi">Permutasi dan kombinasi </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#probabilitas">Probabilitas </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#prinsip-inklusi-dan-eksklusi">Prinsip Inklusi dan Eksklusi </li><li> <a href="/algoritma/aritmetika%20dan%20aturan%20berhitung/index.html#segitiga-pascal">Segitiga Pascal </li></ul><a class="sidebar-nav-item" href="/algoritma/pengurutan%20dan%20pencarian/index.html">Pengurutan dan Pencarian</a><ul><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#bubble-sort">Bubble Sort </li><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#insertion-sort">Insertion Sort </li><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#counting-sort">Counting Sort </li><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#merge-dan-quick-sort">Merge dan Quick Sort </li><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#linear-search">Linear Search </li><li> <a href="/algoritma/pengurutan%20dan%20pencarian/index.html#binary-search">Binary Search </li></ul><a class="sidebar-nav-item" href="/algoritma/brute%20force/index.html">Brute Force</a><a class="sidebar-nav-item" href="/algoritma/Greedy/index.html">Greedy</a>
   </nav>
 
   <div class="sidebar-item">
@@ -125,15 +125,8 @@ Jawaban 1 : -1
   <!--more-->
 </blockquote>
 
-<p>Soal pertama adalah soal pengurutan klasik. Soal ini bisa diselesaikan dengan salah satu teknik pengurutan, misalnya bubble sort:</p>
-<ul>
-  <li>Mulai dari elemen pertama, cek apakah elemen sesudahnya (yaitu elemen kedua) lebih kecil.</li>
-  <li>Bila ya, artinya elemen pertama ini harus terletak sesudah elemen kedua. Untuk itu, lakukan penukaran.</li>
-  <li>Bila tidak, tidak perlu lakukan penukaran.</li>
-  <li>Lanjut periksa elemen kedua, ketiga, dan seterusnya.</li>
-  <li>Lakukan proses di atas hingga seluruh elemen terurut
-Namun perlu diperhatikan, jika ukuran array cukup besar, maka harus menggunakan teknik pengurutan yang lebih cepat.</li>
-</ul>
+<p>Soal pertama adalah soal pengurutan klasik. Soal ini bisa diselesaikan dengan salah satu teknik pengurutan, misalnya bubble sort.
+Namun perlu diperhatikan, jika ukuran array cukup besar, maka harus menggunakan teknik pengurutan yang lebih cepat.</p>
 
 <p>Soal kedua adalah soal pencarian. Solusinya adalah dengan melakukan sequential search sebagai berikut:</p>
 <ul>
@@ -145,12 +138,12 @@ Namun perlu diperhatikan, jika ukuran array cukup besar, maka harus menggunakan 
 <h2 id="tautan-pendalaman-materi">Tautan Pendalaman Materi:</h2>
 <ul>
   <li>
-    <p><a href="https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/16/lessons/13/">Pengurutan dasar: Bubble Sort, Insertion Sort, dan Counting Sort</a></p>
+    <p><a href="https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/16/lessons/13/">Materi Pengurutan dasar: Bubble Sort, Insertion Sort, dan Counting Sort</a></p>
 
     <p>catatan: Sorting lanjutan seperti Quick Sort dan Merge Sort akan dipelajari di bab Divide and Conquer</p>
   </li>
   <li>
-    <p><a href="https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/15/lessons/12/">Pencarian</a></p>
+    <p><a href="https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/15/lessons/12/">Materi Pencarian TLX Training Gate</a></p>
   </li>
 </ul>
 
@@ -172,7 +165,6 @@ Namun perlu diperhatikan, jika ukuran array cukup besar, maka harus menggunakan 
 
 
 </div>
-
 
       </div>
     </div>

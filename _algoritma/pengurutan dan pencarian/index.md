@@ -48,12 +48,7 @@ Contoh soal 2:
 ```
 <!--more-->
 
-Soal pertama adalah soal pengurutan klasik. Soal ini bisa diselesaikan dengan salah satu teknik pengurutan, misalnya bubble sort:
-- Mulai dari elemen pertama, cek apakah elemen sesudahnya (yaitu elemen kedua) lebih kecil.
-- Bila ya, artinya elemen pertama ini harus terletak sesudah elemen kedua. Untuk itu, lakukan penukaran.
-- Bila tidak, tidak perlu lakukan penukaran.
-- Lanjut periksa elemen kedua, ketiga, dan seterusnya.
-- Lakukan proses di atas hingga seluruh elemen terurut
+Soal pertama adalah soal pengurutan klasik. Soal ini bisa diselesaikan dengan salah satu teknik pengurutan, misalnya bubble sort.
 Namun perlu diperhatikan, jika ukuran array cukup besar, maka harus menggunakan teknik pengurutan yang lebih cepat.
 
 Soal kedua adalah soal pencarian. Solusinya adalah dengan melakukan sequential search sebagai berikut:
@@ -62,10 +57,10 @@ Soal kedua adalah soal pencarian. Solusinya adalah dengan melakukan sequential s
 - Jika sampai akhir belum juga ditemukan, artinya angka yang dicari tidak ada pada daftar.
 
 ## Tautan Pendalaman Materi:
-- [Pengurutan dasar: Bubble Sort, Insertion Sort, dan Counting Sort](https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/16/lessons/13/)
+- [Materi Pengurutan dasar: Bubble Sort, Insertion Sort, dan Counting Sort](https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/16/lessons/13/)
   
   catatan: Sorting lanjutan seperti Quick Sort dan Merge Sort akan dipelajari di bab Divide and Conquer
-- [Pencarian](https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/15/lessons/12/)
+- [Materi Pencarian TLX Training Gate](https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/15/lessons/12/)
 
 ## Rekomandasi Soal-soal latihan:
 - [OSN 2009: Paduan Suara](https://training.ia-toki.org/problemsets/66/problems/332/) 
