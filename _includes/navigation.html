@@ -1,6 +1,6 @@
 {% capture html %}
 
-    {% assign entries = include.context | sort: "path" %}
+    {% assign entries = include.context | sort: "order" %}
     {% for entry in entries %}
 
         {% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
@@ -10,7 +10,7 @@
             {% if entry.subsections %}
             <ul>
                 {% for sub in entry.subsections %}
-                <li> {{ sub }} </li>
+                <li> <a href="{{ site.baseurl }}{{ entry.url }}/#{{ sub | replace:" ","-" | downcase }}">{{ sub }} </li>
                 {% endfor %}
             </ul>
             {% endif %}

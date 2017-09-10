@@ -40,15 +40,15 @@ Segitiga Pascal merupakan susunan dari Koefisien Binomial dalam bentuk segitiga.
 Nilai dari baris ke-n suku ke-r adalah $$A_{ij} = C^{n}_{r}$$.
 
 Contoh soal:
-```
-Anda diberikan sebuah string S. Ada berapa kata berbeda yang dapat disusun dari huruf-huruf penyusun kata S?
 
-Contoh 1  : S = 'aba'. 
-Jawaban 1 : 3 ('aab', 'aba', 'baa')
-
-Contoh 2  : S = 'MEGAGIGA'
-Jawaban 2 : 3360
-```
+> Anda diberikan sebuah string S. Ada berapa kata berbeda yang dapat disusun dari huruf-huruf penyusun kata S?
+> ``` 
+> Contoh 1  : S = 'aba'. 
+> Jawaban 1 : 3 ('aab', 'aba', 'baa')
+> 
+> Contoh 2  : S = 'MEGAGIGA'
+> Jawaban 2 : 3360
+> ```
 <!--more-->
 
 Soal tersebut adalah soal kombinatorik. Mari kita selesaikan contoh 2 terlebih dahulu.
@@ -95,12 +95,6 @@ Maka, solusi secara umum
 	<details>
 	<summary>[Solusi]</summary>
 	Menghitung nilai asli dari N! tidak memungkinkan karena terlalu besar. Namun, kita cukup mencari banyaknya faktor 2 dan 5 dari N!, karena 2*5 = 10 (menghasilkan digit 0)
-	</details>
-
-- [OSN 2007: Permutasi Ekspresi](https://training.ia-toki.org/problemsets/69/problems/351/)
-	<details>
-	<summary>[Solusi]</summary>
-	Lakukan simulasi, cari semua permutasi ekspresi yang valid. Karena masukan paling besar adalah 13 digit), maka ada 12 tempat di mana kita dapat menyelipkan operator '+', '-', atau tanpa operator. Sehingga total semua cara yang valid hanyalah 3^12. Untuk mengecek hasil ekspresi yang unik, cukup simpan seluruh hasil di array dan lakukan pengurutan.
 	</details>
 
 - [Codeforces: Random Teams](http://codeforces.com/problemset/problem/478/B)

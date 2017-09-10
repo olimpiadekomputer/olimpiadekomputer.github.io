@@ -5,11 +5,12 @@ title: Home
 
 <h1> Kurikulum Algoritma </h1>
 
-<p> Berikut adalah rangkuman kurikulum OSN 2017. </p>
+<p> Berikut adalah rangkuman kurikulum OSN 2017. Rangkuman ini juga disertai contoh soal. Rangkuman sengaja dibuat singkat, namun jika Anda ingin tahu lebih dalam mengenai topik tertentu, ataupun ingin tahu contoh-contoh soal lainnya, Anda dapat mengeklik topik yang diinginkan untuk mendapatkan penjelasan yang lebih mendalam. </p>
 
 
 <div class="posts">
-  <ol>{% for post in site.algoritma %}
+  {% assign entries = site.algoritma | sort: "order" %}
+  <ol>{% for post in entries %}
     {% if post.title != "Home" %}
     <div class="post">
       <li> <h2 class="post-title"> 
@@ -18,7 +19,7 @@ title: Home
         </a>
       </h1> </li>
       {% assign excerpt = post.content | split: site.excerpt_separator %}
-      {{ excerpt[0] }}
+      {{ excerpt[0] | markdownify }}
       <a href="{{ site.url }}{{ post.url }}">
           Solusi serta soal-soal latihan lainnya tentang {{post.title}}
         </a>
