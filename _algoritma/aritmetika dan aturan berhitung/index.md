@@ -28,7 +28,9 @@ Secara matematis, jika ada $$N$$ burung dan $$M$$ sangkar, maka ada sangkar yang
 - #### Aturan perkalian dan penjumlahan
 
 - #### Permutasi dan kombinasi
-Permutasi dari $$N$$ adalah seluruh cara pengurutan $$N$$ objek tersebut. Banyaknya permutasi dari $$N$$ dinyatakan dalam faktorial, atau $$N!$$. Kombinasi adalah banyaknya cara mengambil $$K$$ buah objek dari $$N$$ pilihan yang ada, tanpa memerdulikan urutan. Notasi kombinasi ini dinyatakan dalam $$C^{N}_{K}$$.
+Permutasi dari $$N$$ adalah seluruh cara pengurutan $$N$$ objek tersebut. Banyaknya permutasi dari $$N$$ dinyatakan dalam faktorial, atau $$N!$$.
+<!--more--> Rumus faktorial, dinotasikan $$N!$$ adalah hasil kali dari 1 sampai $$N$$, sehingga $$N! = 1*2*3*4*...*N$$ <!--more-->
+Kombinasi adalah banyaknya cara mengambil $$K$$ buah objek dari $$N$$ pilihan yang ada, tanpa memerdulikan urutan. Notasi kombinasi ini dinyatakan dalam $$C^{N}_{K}$$.
 
 - #### Probabilitas
 Menghitung kemungkinan terjadinya suatu persistiwa. Secara umum, probabilitas direpresentasikan dalam bentuk $$\frac{A}{B}$$ dimana A adalah total cara terjadinya peristiwa yang diinginkan dan B adalah total cara terjadinya semua peristiwa. Sebagai contoh, jika terdapat $$N$$ bola merah dan $$M$$ bola biru, dan Anda mengambil tepat 2 bola secara acak, berapa kemungkinan bahwa kedua bola berwarna biru? Banyaknya cara mengambil 2 bola biru adalah $$C^{N}_{2}$$ dan banyaknya cara mengambil 2 bola sembarang warna adalah $$C^{N+M}_{2}$$.
@@ -52,7 +54,7 @@ Contoh soal:
 <!--more-->
 
 Soal tersebut adalah soal kombinatorik. Mari kita selesaikan contoh 2 terlebih dahulu.
- -Terdapat 8 huruf, sehingga banyak kata yang dapat disusun adalah $$8!$$.
+ - Terdapat 8 huruf, sehingga banyak kata yang dapat disusun adalah $$8!$$.
  - Terdapat 3 huruf 'G' sehingga terdapat 6 kata yang kita anggap berbeda ($$G_{1}G_{2}G_{3}, G_{1}G_{3}G_{2}, ...,G_{3}G_{2}G_{1}$$) yang mana seharusnya keenam kata tersebut merupakan kata yang sama.
  - Dengan prinsip Redundansi, maka banyak kata yang dapat disusun mengingat kesamaan kata pada huruf G adalah $$\frac{8!}{3!}$$.
  - Perlu kita perhatikan pula bahwa terdapat 2 huruf A, sehingga dengan cara yang sama akan didapatkan banyak kata yang berbeda adalah $$\frac{8!}{(3! \times 2!)} = 3360$$.

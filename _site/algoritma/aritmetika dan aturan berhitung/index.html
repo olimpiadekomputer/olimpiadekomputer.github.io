@@ -95,7 +95,9 @@ Secara matematis, jika ada <script type="math/tex">N</script> burung dan <script
   </li>
   <li>
     <h4 id="permutasi-dan-kombinasi">Permutasi dan kombinasi</h4>
-    <p>Permutasi dari <script type="math/tex">N</script> adalah seluruh cara pengurutan <script type="math/tex">N</script> objek tersebut. Banyaknya permutasi dari <script type="math/tex">N</script> dinyatakan dalam faktorial, atau <script type="math/tex">N!</script>. Kombinasi adalah banyaknya cara mengambil <script type="math/tex">K</script> buah objek dari <script type="math/tex">N</script> pilihan yang ada, tanpa memerdulikan urutan. Notasi kombinasi ini dinyatakan dalam <script type="math/tex">C^{N}_{K}</script>.</p>
+    <p>Permutasi dari <script type="math/tex">N</script> adalah seluruh cara pengurutan <script type="math/tex">N</script> objek tersebut. Banyaknya permutasi dari <script type="math/tex">N</script> dinyatakan dalam faktorial, atau <script type="math/tex">N!</script>.
+<!--more--> Rumus faktorial, dinotasikan <script type="math/tex">N!</script> adalah hasil kali dari 1 sampai <script type="math/tex">N</script>, sehingga <script type="math/tex">N! = 1*2*3*4*...*N</script> <!--more-->
+Kombinasi adalah banyaknya cara mengambil <script type="math/tex">K</script> buah objek dari <script type="math/tex">N</script> pilihan yang ada, tanpa memerdulikan urutan. Notasi kombinasi ini dinyatakan dalam <script type="math/tex">C^{N}_{K}</script>.</p>
   </li>
   <li>
     <h4 id="probabilitas">Probabilitas</h4>
@@ -125,9 +127,9 @@ Jawaban 2 : 3360
   <!--more-->
 </blockquote>
 
-<p>Soal tersebut adalah soal kombinatorik. Mari kita selesaikan contoh 2 terlebih dahulu.
- -Terdapat 8 huruf, sehingga banyak kata yang dapat disusun adalah <script type="math/tex">8!</script>.</p>
+<p>Soal tersebut adalah soal kombinatorik. Mari kita selesaikan contoh 2 terlebih dahulu.</p>
 <ul>
+  <li>Terdapat 8 huruf, sehingga banyak kata yang dapat disusun adalah <script type="math/tex">8!</script>.</li>
   <li>Terdapat 3 huruf ‘G’ sehingga terdapat 6 kata yang kita anggap berbeda (<script type="math/tex">G_{1}G_{2}G_{3}, G_{1}G_{3}G_{2}, ...,G_{3}G_{2}G_{1}</script>) yang mana seharusnya keenam kata tersebut merupakan kata yang sama.</li>
   <li>Dengan prinsip Redundansi, maka banyak kata yang dapat disusun mengingat kesamaan kata pada huruf G adalah <script type="math/tex">\frac{8!}{3!}</script>.</li>
   <li>Perlu kita perhatikan pula bahwa terdapat 2 huruf A, sehingga dengan cara yang sama akan didapatkan banyak kata yang berbeda adalah <script type="math/tex">\frac{8!}{(3! \times 2!)} = 3360</script>.</li>

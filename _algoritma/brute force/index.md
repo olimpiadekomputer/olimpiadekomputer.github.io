@@ -15,6 +15,7 @@ Contoh soal:
 > Contoh  2 : A = [1, 3, 6, 10], K = 15
 > Jawaban 2 : "TIDAK"
 > ```
+
 <!--more-->
 
 Solusi soal di atas adalah:

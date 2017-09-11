@@ -12,6 +12,7 @@ subsections:
 ---
 
 Pengurutan melingkupi teknik-teknik mengurutkan data, seperti:
+
 - #### Bubble sort
 Bubble sort adalah teknik pengurutan data dengan membandingkan suatu elemen dengan elemen yang bersebelahan, dan menukarnya jika urutannya terbalik. Proses ini diulang hingga data terurut.
 - #### Insertion Sort
@@ -45,7 +46,8 @@ Contoh soal 2:
 > 
 > Contoh 1  : A = [10, 7, 3, 6] , D = 9
 > Jawaban 1 : -1
-```
+> ```
+
 <!--more-->
 
 Soal pertama adalah soal pengurutan klasik. Soal ini bisa diselesaikan dengan salah satu teknik pengurutan, misalnya bubble sort.

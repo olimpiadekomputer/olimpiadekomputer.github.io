@@ -4,8 +4,8 @@ title: Greedy
 order: 5
 ---
 merupakan sebuah teknik dalam strategi penyelesaian masalah. Suatu persoalan dapat diselesaikan dengan teknik Greedy jika persoalan tersebut memiliki memiliki properti berikut:
-    - Solusi optimal dari persoalan dapat ditentukan dari solusi optimal sub-persoalan tersebut.
-    - Pada setiap sub-persoalan, ada suatu langkah yang bisa dilakukan yang mana langkah tersebut menghasilkan solusi optimal pada sub-persoalan tersebut. Langkah ini disebut juga Greedy Choice.
+- Solusi optimal dari persoalan dapat ditentukan dari solusi optimal sub-persoalan tersebut.
+- Pada setiap sub-persoalan, ada suatu langkah yang bisa dilakukan yang mana langkah tersebut menghasilkan solusi optimal pada sub-persoalan tersebut. Langkah ini disebut juga Greedy Choice.
 
 Contoh soal:
 

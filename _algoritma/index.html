@@ -19,7 +19,16 @@ title: Home
         </a>
       </h1> </li>
       {% assign excerpt = post.content | split: site.excerpt_separator %}
-      {{ excerpt[0] | markdownify }}
+
+      {% assign full_content = "" %}
+
+      {% for content in excerpt %} 
+        {% assign tmp = forloop.index | modulo:2 %}
+        {% if tmp == 1 %}
+          {% assign full_content = full_content | append:content %}
+        {% endif %}
+      {% endfor %}
+      {{ full_content | markdownify }}
       <a href="{{ site.url }}{{ post.url }}">
           Solusi serta soal-soal latihan lainnya tentang {{post.title}}
         </a>
