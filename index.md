@@ -1,30 +1,25 @@
 ---
 layout: default
-title: Algoritma
+title: Home
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+### Pengantar
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Kami percaya bahwa semua orang berhak memiliki kesempatan yang sama untuk memenangkan OSN.
+Kami juga sadar bahwa tak semua orang memiliki akses pengajar ataupun kesempatan mengikuti pelatihan OSN.
+Oleh karena itu, kami dari __Ikatan Alumni Tim Olimpiade Komputer Indonesia__ membuat website ini sebagai salah satu fasilitas pembelajaran mandiri.
 
-There are currently two themes built on Poole:
+Di website ini terdapat __kurikulum resmi OSN Informatika__ yang terkini, beserta penjelasan masing-masing bab. Setiap babnya kami sediakan rekomendasi sarana pembelajaran untuk menguasai topik tersebut. Selain itu, dilengkapi juga dengan contoh-contoh soal relevan serta petunjuk untuk meyelesaikan soal tersebut.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+# [Belajar Algoritma dan Struktur Data](/algoritma/)
 
-## Setup
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+### Sarana Pembelajaran Mandiri Lainnya
+Selain website ini, berikut adalah daftar sarana belajar persiapan olimpiade yang kami sarankan. Semua sarana ini bisa kalian manfaatkan secara mandiri atau tanpa pengajar
+ - [TLX Training Gate](https://training.ia-toki.org) 
+   
+   Online Judge resmi milik TOKI. Terdapat kumpulan-kumpulan soal-soal pemrograman yang bisa kalian coba langsung pada website ini
+ - [Kujawab.com](https://kujawab.com) 
+   
+   Berisi soal-soal OSP dan OSK, dilengkapi dengan solusi dari sesama pengguna
