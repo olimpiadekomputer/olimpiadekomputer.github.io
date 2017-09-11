@@ -25,7 +25,7 @@ Soal tersebut adalah soal DP klasik "Coin Change". Mari perhatikan properti beri
 Bagaimana menyelesaikan soal tersebut secara DP?
 - Definisikan sebuah fungsi $$f(x)$$ sebagai banyaknya koin minimum yang dibutuhkan untuk membayar $$x$$ rupiah.
 - Kita dapat mencoba-coba koin yang ingin kita gunakan.
-- Jika suatu koin $a_k$ digunakan, maka kita membutuhkan $f(x-a_k)$ koin ditambah satu koin $$a_k$$.
+- Jika suatu koin $$a_k$$ digunakan, maka kita membutuhkan $$f(x-a_k)$$ koin ditambah satu koin $$a_k$$.
 - Atau dapat ditulis $$f(x) = f(x-a_k) + 1$$
 - Pencarian nilai $$f(x-a_k)$$ dilakukan secara rekursif, kita kembali mencoba-coba koin yang ingin digunakan.
 - Fungsi $$f(x)$$ ini akan dikunjungi berkali-kali! Sehingga nilai $$f(x)$$ perlu kita simpan dalam tabel.
