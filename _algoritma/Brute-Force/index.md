@@ -2,7 +2,18 @@
 layout: page
 title: Brute Force
 order: 3
+examples:
+ - title: "OSN 2007: Permutasi Ekspresi"
+   url: https://training.ia-toki.org/problemsets/69/problems/351/
+   hint: Lakukan simulasi, cari semua permutasi ekspresi yang valid. Karena masukan paling besar adalah 13 digit), maka ada 12 tempat di mana kita dapat menyelipkan operator '+', '-', atau tanpa operator. Sehingga total semua cara yang valid hanyalah \\(3^{12}\\). Untuk mengecek hasil ekspresi yang unik, cukup simpan seluruh hasil di array dan lakukan pengurutan.
+   summary: bla
+
+ - title: "OSN 2012: Kontes Menari"
+   url: https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/52/problems/232/
+   hint: Karena nilai N hanya 10, kita bisa coba lakukan brute-force di semua permutasi. Untuk setiap permutasi, simulasikan seluruh gerakan untuk mendapatkan total nilai keindahan, dan simpan pada array. Perhitungan kemungkinan rangkaian gerakan yang dapat memukau setiap juri dilakukan dengan melakukan pencarian pada array tersebut.
+   summary: bla
 ---
+
 Brute-force merupakan suatu strategi penyelesaian masalah dengan mencoba semua kemungkinan. Brute-force menjamin solusi selalu benar, namun biasanya lambat karena menjelajahi semua kemungkinan solusi. Pada OSN, Brute-force berguna untuk menguji kebenaran solusi utama kita. Selain itu, biasanya tiap soal selalu memiliki sub-task yang bisa diselesaikan dengan teknik Brute-force.
 
 Contoh soal:
@@ -21,25 +32,20 @@ Contoh soal:
 Solusi soal di atas adalah:
 - Untuk setiap elemen, kita memiliki 2 pilihan yaitu memilih elemen tersebut atau tidak memilihnya.
 - Kita akan menelusuri semua kemungkinan pilihan.
-- Jika jumlahan dari elemen-elemen yang dipilih sama dengan $$K$$, maka terdapat solusi.
+- Jika jumlahan dari elemen-elemen yang dipilih sama dengan \\(K \\), maka terdapat solusi.
 - Hal ini dapat dengan mudah diimplementasikan secara rekursif.
 
-Mari kita analisa solusi tersebut. Terdapat $$2^N$$ kemungkinan pilih-tidak pilih, sehingga kompleksitas solusi adalah $$O(2^N)$$. Nilai $$2^N$$ tumbuh dengan sangat cepat, sehingga solusi ini hanya dapat menyelesaikan soal tersebut jika $$N$$ kecil.
+Mari kita analisa solusi tersebut. Terdapat \\(2^N \\) kemungkinan pilih-tidak pilih, sehingga kompleksitas solusi adalah \\(O(2^N) \\). Nilai \\(2^N \\) tumbuh dengan sangat cepat, sehingga solusi ini hanya dapat menyelesaikan soal tersebut jika \\(N \\) kecil.
 
-## Tautan Pendalaman Materi:
+#### Tautan Pendalaman Materi:
 - [Materi Brute-Force TLX Training Gate](https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/52/lessons/19/)
 
-## Rekomandasi Soal-soal latihan:
-- [OSN 2007: Permutasi Ekspresi](https://training.ia-toki.org/problemsets/69/problems/351/)
+#### Rekomandasi Soal-soal latihan:
+{% for example in page.examples %}
+- [{{example.title}}]({{ example.url }})
 	<details>
 	<summary>[Solusi]</summary>
-	Lakukan simulasi, cari semua permutasi ekspresi yang valid. Karena masukan paling besar adalah 13 digit), maka ada 12 tempat di mana kita dapat menyelipkan operator '+', '-', atau tanpa operator. Sehingga total semua cara yang valid hanyalah 3^12. Untuk mengecek hasil ekspresi yang unik, cukup simpan seluruh hasil di array dan lakukan pengurutan.
+	{{ example.hint }}
 	</details>
 
-- [OSN 2012: Kontes Menari](https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/52/problems/232/) 
-	<details>
-	<summary>[Solusi]</summary>
-	Karena nilai N hanya 10, kita bisa coba lakukan brute-force di semua permutasi. Untuk setiap permutasi, simulasikan seluruh gerakan untuk mendapatkan total nilai keindahan, dan simpan pada array. Perhitungan kemungkinan rangkaian gerakan yang dapat memukau setiap juri dilakukan dengan melakukan pencarian pada array tersebut.</details>
-
-
-
+{% endfor %}

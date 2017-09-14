@@ -1,0 +1,33 @@
+---
+layout: print
+---
+{% assign sorted_context = site.algoritma | sort : "order" %}
+{% for section in sorted_context %}
+	{% if section.order %}
+		{% assign content = section.content | split:"Rekomandasi Soal-soal latihan:" %}
+		<h2> {{ section.title }} </h2>
+		{{ content[0] | markdownify }}
+		<h3> Soal Latihan </h3>
+
+		{% for example in section.examples %}
+		<h4> {{example.title}} </h4>
+		<blockquote> {{example.summary}} </blockquote>
+
+		{% endfor %}
+
+	{% endif %}
+{% endfor %}
+
+<h2> Pembahasan Soal Latihan </h2>
+{% for section in sorted_context %}
+	{% if section.order %}
+		<h3> {{section.title}} </h3>
+		{% for example in section.examples %}
+		
+		<h4> {{example.title}} </h4>
+		<blockquote> {{example.hint | markdownify}} </blockquote>
+
+		{% endfor %}
+
+	{% endif %}
+{% endfor %}

@@ -75,20 +75,12 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
-  max-width: 28rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-
+  max-width: 990rem;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  padding-left: 5rem;
+  padding-right: 4rem;
 }
-@media (min-width: 44em) {
-  .container {
-    max-width: 35rem;
-  }
-}
-@media (min-width: 72em) {
-  .container {
-    max-width: 50rem;
-  }
 }
 
 
@@ -599,3 +591,22 @@ details[open] > summary::before {
 .PageNavigation .next {
   text-align: right;
 }
+#content {
+    display: table;
+}
+#pageFooter {
+    display: table-footer-group;
+}
+
+#pageFooter:after {
+    counter-increment: page;
+    content:"Page " counter(page);
+    left: 0; 
+    top: 100%;
+    white-space: nowrap; 
+    z-index: 20px;
+    -moz-border-radius: 5px; 
+    -moz-box-shadow: 0px 0px 4px #222;  
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+  }

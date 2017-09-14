@@ -2,6 +2,12 @@
 layout: page
 title: Greedy
 order: 5
+examples:
+ - title: "TLX: Rak Buku"
+   url: https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/54/problems/240/
+   hint: Lakukan Greedy Choice dengan memilih bebek yang paling tinggi terlebih dahulu
+   summary: bla
+
 ---
 merupakan sebuah teknik dalam strategi penyelesaian masalah. Suatu persoalan dapat diselesaikan dengan teknik Greedy jika persoalan tersebut memiliki memiliki properti berikut:
 - Solusi optimal dari persoalan dapat ditentukan dari solusi optimal sub-persoalan tersebut.
@@ -9,9 +15,9 @@ merupakan sebuah teknik dalam strategi penyelesaian masalah. Suatu persoalan dap
 
 Contoh soal:
 
-> Diberikan $$N$$ buah aktivitas.
-> - Aktivitas ke-$$i$$ dinyatakan dalam $$<a_i.start, a_i.end>$$.
-> - Artinya, aktivitas ini dimulai pada waktu $$a_i.start$$ dan berakhir pada waktu $$a_i.end$$.
+> Diberikan \\(N\\)  buah aktivitas.
+> - Aktivitas ke-\\( i\\)  dinyatakan dalam \\(<a_i.start, a_i.end>\\) .
+> - Artinya, aktivitas ini dimulai pada waktu \\(a_i.start\\)  dan berakhir pada waktu \\(a_i.end\\) .
 > - Pada setiap satuan waktu, Anda dapat mengikuti paling banyak satu aktivitas.
 > - Anda ingin mengatur jadwal sedemikian sehingga Anda bisa ikut aktivitas sebanyak mungkin.
 > ```
@@ -21,8 +27,8 @@ Contoh soal:
 
 <!--more-->
 Untuk menyelesaikan soal tersebut, kita lihat apakah soal tersebut dapat dijadikan subsoal yang lebih kecil:
-- Misalkan kegiatan pertama yang kita ikuti adalah kegiatan ke-$$x$$.
-- Kegiatan selanjutnya yang diikuti haruslah memiliki waktu awal $$\geq a_x.end$$.
+- Misalkan kegiatan pertama yang kita ikuti adalah kegiatan ke-\\( x\\) .
+- Kegiatan selanjutnya yang diikuti haruslah memiliki waktu awal \\(\geq a_x.end\\) .
 - Lebih jauh lagi, ternyata kita mendapat persoalan yang serupa, hanya saja ukurannya lebih kecil.
 - Dengan kata lain, kita memperoleh sub-persoalan.
 
@@ -38,12 +44,15 @@ Untuk setiap sub-persoalan, kita harus memilih sebuah Greedy Choice. Pada soal i
   Dengan memilih aktivitas yang selesai lebih awal, kita mempunyai sisa waktu lebih banyak untuk aktivitas lainnya.
 
 
-## Tautan Pendalaman Materi:
+#### Tautan Pendalaman Materi:
 - [Materi Greedy TLX Training Gate](https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/54/lessons/22/)
 
-## Rekomandasi Soal-soal latihan:
-- [TLX: Rak Buku](https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/54/problems/240/) 
+#### Rekomandasi Soal-soal latihan:
+{% for example in page.examples %}
+- [{{example.title}}]({{ example.url }})
 	<details>
 	<summary>[Solusi]</summary>
-	Lakukan Greedy Choice dengan memilih bebek yang paling tinggi terlebih dahulu
+	{{ example.hint }}
 	</details>
+
+{% endfor %}

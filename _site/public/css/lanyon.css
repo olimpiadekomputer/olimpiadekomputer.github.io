@@ -42,7 +42,7 @@ body {
 
 html {
   font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -74,24 +74,20 @@ h1, h2, h3, h4, h5, h6 {
  * Center the page content.
  */
 
-.content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
-}
+.container {
+  max-width: 28rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 
-@media (min-width: 48em) {
-  .content {
-    max-width: 40rem;
-    margin-left: 16rem;
-    margin-right: 3rem;
+}
+@media (min-width: 44em) {
+  .container {
+    max-width: 35rem;
   }
 }
-
-@media (min-width: 64em) {
-  .content {
+@media (min-width: 72em) {
+  .container {
     max-width: 50rem;
-    margin-left: 18rem;
-    margin-right: 4rem;
   }
 }
 
