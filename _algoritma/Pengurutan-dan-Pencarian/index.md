@@ -17,7 +17,7 @@ examples:
    summary: bla
 
  - title: "OSN 2015: Pertahanan Yogya"
-   url: https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/52/problems/232/
+   url: https://training.ia-toki.org/problemsets/2/problems/4/
    hint: Kita tentukan nilai \\(Z_i\\), yang artinya banyaknya kemampuan tambahan yang diperlukan sebelum kita bisa mengalahkan musuh ke-i. Nilai ini bisa dicari dengan menggunakan binary search. Setelah itu, urutkan musuh-musuh berdasarkan nilai \\(Z_i\\) mereka. Setelah itu, cukup lakukan simulasi untuk menentukan jawaban.
    summary: bla
 
@@ -36,17 +36,17 @@ Counting sort dilakukan dengan menghitung berapa kemunculan elemen dengan nilai 
 <!--more-->
 - Perhatikan batasan-batasan dalam soal. Jika elemen-elemen pada soal memiliki range yang terbatas, misalnya umur, atau berat badan, biasanya dapat diurutkan dengan counting sort.
 <!--more-->
+
 ### Merge Sort dan Quick Sort
 Ini adalah teknik pengurutan lanjutan. Akan dijelaskan pada bab Divide and Conquer
 <!--more-->
 - Anda harus penguasai paling tidak satu teknik pengurutan dengan kompleksitas O(N log N) ini, karena umumnya teknik pengurutan kuadratik terlalu lambat untuk ukuran data pada soal OSN.
 - Merge sort juga dapat digunakan untuk menyelesaikan inversi:
 > Diberikan sebuah array dengan N buah bilangan. Anda ingin mengurutkan array tersebut dengan cara menukar 2 elemen bersebelahan. Berapa pertukaran (swap) minimal yang mungkin untuk mengurutkan array tersebut?
+
 Jawaban dari soal tersebut adalah total swap yang terjadi saat melakukan merge sort.
 
 <!--more-->
-
-Pencarian adalah proses mencari suatu elemen pada data. Secara umum terdapat 2 teknik pencarian yang harus Anda kuasai:
 ### Linear Search
 Linear search adalah proses mencari elemen pada suatu data dengan membandingkan elemen yang ingin dicari pada setiap elemen pada data satu persatu.
 
@@ -54,11 +54,7 @@ Linear search adalah proses mencari elemen pada suatu data dengan membandingkan 
 Jika data yang ada terurut, maka kita dapat mencari lebih efisien. Pada binary search, kita membandingkan elemen yang ingin dicari pada elemen tengah data. Jika elemen tersebut lebih kecil dari elemen tengah pada data, Anda cukup mencari lagi di separuh pertama data tersebut. Jika tidak, kita cari di separuh terakhir. Proses ini dilakukan hingga elemen ditemukan atau data sudah tidak bisa dibagi lagi.
 
 <!--more-->
-- Binary-search tidak hanya digunakan untuk mencari data pada array. Anda bisa memanfaatkan Binary Search untuk mencari nilai dari suatu persamaan. Contohnya: 
-
-CONTOH SOAL BINSER DI RUMUS?
-
-- Binary-search tidak hanya digunakan untuk mencari data. Kadang kala Anda harus melakukan Binary-Search pada jawaban. Salah satu indikasinya adalah jika Anda diminta mencari suatu Angka terkecil (atau terbesar) yang valid dalam suatu sistem tertentu dan jika N valid, maka N+1 dijamin selalu valid. Contohnya:
+- Binary-search tidak hanya digunakan untuk mencari data. Kadang kala Anda harus melakukan Binary-Search pada jawaban. Salah satu indikasinya adalah jika jawaban yang Anda cari memiliki properti dimana jika N adalah jawaban valid, maka N+1 dijamin selalu valid. Contohnya:
 
 CONTOH SOAL BINARY SEARCH DI JAWABAN.
 
@@ -69,14 +65,6 @@ CONTOH SOAL BINARY SEARCH DI JAWABAN.
 {% highlight c++ %}
 int a[] = {5, 4, 1, 3};
 sort(a, a + 4); /* 4 adalah ukuran array */
-{% endhighlight %}
-
-- Selain itu, Anda juga dapat memanfaatkan STL set pada C++ untuk melakukan pencarian secara efisien. 
-{% highlight cpp %}
-set<int> s;
-s.insert(4); s.insert(7); s.insert(9);
-cout<<a.count(4)<<endl; /* keluaran : 1 */
-cout<<a.count(9)<<endl; /* keluaran : 0 */
 {% endhighlight %}
 
 - Jika Anda memiliki data yang terurut, Anda bisa menggunakan STL pada C++ untuk melakukan binary search.
@@ -93,7 +81,7 @@ cout<<idx<<endl; /* nilainya 3 (index 5 pada array a) */
 
 <!--more-->
 
-### Contoh soal Pengurutan dan Pencarian:
+### Contoh soal
 
 > Anda diberikan sebuah array A yang terdiri dari N buah bilangan. Keluarkan array tersebut dalam kondisi terurut menaik.
 > ```
@@ -108,9 +96,9 @@ Namun perlu diperhatikan, jika ukuran array cukup besar, maka harus menggunakan 
 
 {% for example in page.examples %}
 - [{{example.title}}]({{ example.url }})
+> {{ example.summary }}
 	<details>
 	<summary>[Solusi]</summary>
-	{{ example.hint }}
 	</details>
 
 {% endfor %}

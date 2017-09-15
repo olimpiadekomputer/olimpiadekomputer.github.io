@@ -95,24 +95,32 @@
       <p>Aritmetika dan aturan berhitung melingkupi:</p>
 
 <h3 id="aritmetika-modular">Aritmetika modular</h3>
-<p>Memahami konsep operasi modular. Operasi \(a \bmod m\), atau biasa disebut “\(a\) modulo \(m\)” memberikan sisa hasil bagi \(a\) oleh \(m\).</p>
+<p>Operasi \(a \bmod m\), atau biasa disebut “\(a\) modulo \(m\)” memberikan sisa hasil bagi \(a\) oleh \(m\).
+Fungsi mod ini biasa muncul di OSN untuk menghindari angka yang terlalu besar.
+
+
 <h3 id="bilangan-prima">Bilangan prima</h3>
-<p>Bilangan prima adalah bilangan bulat positif yang hanya habis dibagi oleh 1 dan dirinya sendiri. Memahami algoritma-algoritma untuk mengecek bilangan prima, menghasilkan bilangan prima, ataupun melakukan faktorisasi prima.</p>
+
+<p>Bilangan prima adalah bilangan bulat positif yang hanya habis dibagi oleh 1 dan dirinya sendiri. Anda diharapkan dapat melakukan pengecekan prima dengan cara perulangan dari 2 sampai \(\sqrt{N}\), maupun dengan teknik sieve of erathothenes.</p>
+
 <h3 id="kpk-dan-fpb">KPK dan FPB</h3>
-<p>Mencari KPK dan FPB dengan memanfaatkan faktorisasi prima.</p>
+<p>Anda diharapkan dapat mencari KPK dan FPB dengan memanfaatkan faktorisasi prima.
+
 
 <h3 id="pigeonhole-principle">Pigeonhole Principle</h3>
 <p>Konsep PHP menyatakan bahwa “Jika ada \(N\) burung dan \(M\) sangkar, dimana \(N &gt; M\) , maka ada sangkar yang berisi setidaknya 2 ekor burung”.
 Secara matematis, jika ada \(N\) burung dan \(M\) sangkar, maka ada sangkar yang berisi setidaknya \(\big\lceil \frac{N}{M} \big\rceil\) ekor burung.</p>
-<h4 id="aturan-perkalian-dan-penjumlahan">Aturan perkalian dan penjumlahan</h4>
+
+<h3 id="aturan-perkalian-dan-penjumlahan">Aturan perkalian dan penjumlahan</h3>
 
 <h3 id="permutasi-dan-kombinasi">Permutasi dan kombinasi</h3>
 <p>Permutasi dari \(N\) adalah seluruh cara pengurutan \(N\) objek tersebut. Banyaknya permutasi dari \(N\) dinyatakan dalam faktorial, atau \(N!\).
 
-Kombinasi adalah banyaknya cara mengambil \(K\) buah objek dari \(N\) pilihan yang ada, tanpa memerdulikan urutan. Notasi kombinasi ini dinyatakan dalam \(C^{N}_{K} = \).</p>
+Kombinasi adalah banyaknya cara mengambil \(K\) buah objek dari \(N\) pilihan yang ada, tanpa memerdulikan urutan. Notasi kombinasi ini dinyatakan dalam \(C^{N}_{K} = \frac{N!}{K!(N-K)!}\).
+</p>
 
 <h3 id="probabilitas">Probabilitas</h3>
-<p>Menghitung kemungkinan terjadinya suatu persistiwa. Secara umum, probabilitas direpresentasikan dalam bentuk \(\frac{A}{B}\) dimana A adalah total cara terjadinya peristiwa yang diinginkan dan B adalah total cara terjadinya semua peristiwa. Sebagai contoh, jika terdapat \(N\) bola merah dan \(M\) bola biru, dan Anda mengambil tepat 2 bola secara acak, berapa kemungkinan bahwa kedua bola berwarna biru? Banyaknya cara mengambil 2 bola biru adalah \(C^{N}_{2} \) dan banyaknya cara mengambil 2 bola sembarang warna adalah \(C^{N+M}_2 \).</p>
+<p>Menghitung kemungkinan terjadinya suatu persistiwa. Sebagai contoh, jika terdapat \(N\) bola merah dan \(M\) bola biru, dan Anda mengambil tepat 2 bola secara acak, berapa kemungkinan bahwa kedua bola berwarna biru? Banyaknya cara mengambil 2 bola biru adalah \( C^N_2 \) dan banyaknya cara mengambil 2 bola sembarang warna adalah \(C_2^{N+M} \), maka probabilitasnya adalah \( \frac{C^{N}_{2}}{C^{N+M}_2}\) .</p>
 
 <h3 id="prinsip-inklusi-dan-eksklusi">Prinsip Inklusi dan Eksklusi</h3>
 
@@ -120,7 +128,13 @@ Kombinasi adalah banyaknya cara mengambil \(K\) buah objek dari \(N\) pilihan ya
 <p>Segitiga Pascal merupakan susunan dari Koefisien Binomial dalam bentuk segitiga.
 Nilai dari baris ke-n suku ke-r adalah \(A_{ij} = C^{n}_{r}\).</p>
 
-<p>Contoh soal:</p>
+<h4 id="tautan-pendalaman-materi">Tautan Pendalaman Materi:</h4>
+<ul>
+  <li><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/lessons/18/">Materi Kombinatorik TLX Training Gate</a></li>
+  <li><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/lessons/17/">Materi Matematika Diskret TLX Training Gate</a></li>
+</ul>
+
+<h3 id="contoh-soal">Contoh soal:</h3>
 
 <blockquote>
   <p>Anda diberikan sebuah string S. Ada berapa kata berbeda yang dapat disusun dari huruf-huruf penyusun kata S?</p>
@@ -132,7 +146,7 @@ Jawaban 2 : 3360
 </code></pre>
   </div>
   
-</blockquote>
+</blockquote></p></p>
 
 
       <a href="http://localhost:4000/algoritma/Aritmetika-dan-Aturan-Berhitung/index.html">
@@ -163,12 +177,12 @@ Jawaban 2 : 3360
 
 <h3 id="counting-sort">Counting Sort</h3>
 <p>Counting sort dilakukan dengan menghitung berapa kemunculan elemen dengan nilai 1, 2, 3, …, hingga K. Kemudian, angka tersebut ditampilkan lagi secara terurut.
+&lt;/li&gt;
+&lt;/ul&gt;
 
-    <h3 id="merge-sort-dan-quick-sort">Merge Sort dan Quick Sort</h3>
-    <p>Ini adalah teknik pengurutan lanjutan. Akan dijelaskan pada bab Divide and Conquer
+<h3 id="merge-sort-dan-quick-sort">Merge Sort dan Quick Sort</h3>
+<p>Ini adalah teknik pengurutan lanjutan. Akan dijelaskan pada bab Divide and Conquer
 
-
-<p>Pencarian adalah proses mencari suatu elemen pada data. Secara umum terdapat 2 teknik pencarian yang harus Anda kuasai:</p>
 <h3 id="linear-search">Linear Search</h3>
 <p>Linear search adalah proses mencari elemen pada suatu data dengan membandingkan elemen yang ingin dicari pada setiap elemen pada data satu persatu.</p>
 
@@ -177,7 +191,7 @@ Jawaban 2 : 3360
 
 
 
-<h3 id="contoh-soal-pengurutan-dan-pencarian">Contoh soal Pengurutan dan Pencarian:</h3>
+<h3 id="contoh-soal">Contoh soal</h3>
 
 <blockquote>
   <p>Anda diberikan sebuah array A yang terdiri dari N buah bilangan. Keluarkan array tersebut dalam kondisi terurut menaik.</p>
@@ -323,9 +337,7 @@ Jawaban 1 :  2 (6 + 6)
       
 
       
-      <iframe src="https://docs.google.com/viewerng/viewer?url=https://github.com/ia-toki/training-gate-id-pdf/raw/master/pemrograman-kompetitif-dasar_07-struktur-data-dasar.pdf&amp;embedded=true" width="100%" height="480px"></iframe>
-
-<p>Struktur data linear adalah struktur data yang dibangun pada array. Dalam OSN, terdapat 2 struktur data linear yang masuk dalam kurikulum:</p>
+      <p>Struktur data linear adalah struktur data yang dibangun pada array. Dalam OSN, terdapat 2 struktur data linear yang masuk dalam kurikulum:</p>
 <h3 id="queue">Queue</h3>
 <p>Queue adalah struktur data dimana kita dapat memasukkan elemen, dan mengeluarkan elemen sesuai dengan urutan masukknya. Pada Queue, elemen yang pertama dikeluarkan adalah elemen yang pertama kali masuk, mirip seperti antrian dalam dunia nyata.</p>
 

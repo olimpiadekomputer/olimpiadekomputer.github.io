@@ -73,24 +73,56 @@
   <p>Aritmetika dan aturan berhitung melingkupi:</p>
 
 <h3 id="aritmetika-modular">Aritmetika modular</h3>
-<p>Memahami konsep operasi modular. Operasi \(a \bmod m\), atau biasa disebut “\(a\) modulo \(m\)” memberikan sisa hasil bagi \(a\) oleh \(m\).</p>
+<p>Operasi \(a \bmod m\), atau biasa disebut “\(a\) modulo \(m\)” memberikan sisa hasil bagi \(a\) oleh \(m\).
+Fungsi mod ini biasa muncul di OSN untuk menghindari angka yang terlalu besar.
+<!--more--></p>
+
+<p>Sifat modulo:</p>
+<ul>
+  <li>\((A \times B) \mod C = ((A \mod C) \times (B \mod C)) \mod C\)</li>
+  <li>\((A + B) \mod C = ((A \mod C) + (B \mod C)) \mod C\)</li>
+  <li>\((A - B) \mod C = ((A \mod C) - (B \mod C) + C) \mod C\)</li>
+  <li>\((A / B) \mod C = (A \times (B^{C-2} \mod C)) \mod C\) , hanya berlaku jika C adalah prima</li>
+</ul>
+
+<!--more-->
+
 <h3 id="bilangan-prima">Bilangan prima</h3>
-<p>Bilangan prima adalah bilangan bulat positif yang hanya habis dibagi oleh 1 dan dirinya sendiri. Memahami algoritma-algoritma untuk mengecek bilangan prima, menghasilkan bilangan prima, ataupun melakukan faktorisasi prima.</p>
+
+<p>Bilangan prima adalah bilangan bulat positif yang hanya habis dibagi oleh 1 dan dirinya sendiri. Anda diharapkan dapat melakukan pengecekan prima dengan cara perulangan dari 2 sampai \(\sqrt{N}\), maupun dengan teknik sieve of erathothenes.</p>
+
 <h3 id="kpk-dan-fpb">KPK dan FPB</h3>
-<p>Mencari KPK dan FPB dengan memanfaatkan faktorisasi prima.</p>
+<p>Anda diharapkan dapat mencari KPK dan FPB dengan memanfaatkan faktorisasi prima.
+<!--more--></p>
+<ul>
+  <li>fpb(A,0) = A</li>
+  <li>fpb(A,B) = fpb(B, A mod B)</li>
+  <li>kpk(A,B) = A x B / fpb(A, B)</li>
+</ul>
+
+<p>Dalam C++, fpb dapat dihitung menggunakan fungsi berikut:</p>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"> <span class="n">cout</span><span class="o">&lt;&lt;</span> <span class="n">__gcd</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span></code></pre></figure>
+
+<!--more-->
 
 <h3 id="pigeonhole-principle">Pigeonhole Principle</h3>
 <p>Konsep PHP menyatakan bahwa “Jika ada \(N\) burung dan \(M\) sangkar, dimana \(N &gt; M\) , maka ada sangkar yang berisi setidaknya 2 ekor burung”.
 Secara matematis, jika ada \(N\) burung dan \(M\) sangkar, maka ada sangkar yang berisi setidaknya \(\big\lceil \frac{N}{M} \big\rceil\) ekor burung.</p>
-<h4 id="aturan-perkalian-dan-penjumlahan">Aturan perkalian dan penjumlahan</h4>
+
+<h3 id="aturan-perkalian-dan-penjumlahan">Aturan perkalian dan penjumlahan</h3>
 
 <h3 id="permutasi-dan-kombinasi">Permutasi dan kombinasi</h3>
 <p>Permutasi dari \(N\) adalah seluruh cara pengurutan \(N\) objek tersebut. Banyaknya permutasi dari \(N\) dinyatakan dalam faktorial, atau \(N!\).
 <!--more--> Rumus faktorial, dinotasikan \(N!\) adalah hasil kali dari 1 sampai \(N\), sehingga \(N! = 1 \times 2 \times 3 \times \dots \times N\) <!--more-->
-Kombinasi adalah banyaknya cara mengambil \(K\) buah objek dari \(N\) pilihan yang ada, tanpa memerdulikan urutan. Notasi kombinasi ini dinyatakan dalam \(C^{N}_{K} = \).</p>
+Kombinasi adalah banyaknya cara mengambil \(K\) buah objek dari \(N\) pilihan yang ada, tanpa memerdulikan urutan. Notasi kombinasi ini dinyatakan dalam \(C^{N}_{K} = \frac{N!}{K!(N-K)!}\).
+<!--more--></p>
+
+<p>Untuk menghitung kombinasi dengan nilai N besar, Anda tidak dapat melakukan perhitungan N! terlebih dahulu, kemudian menghitung pembaginya. Manfaatkan sifat modulo pembagian!
+<!--more--></p>
 
 <h3 id="probabilitas">Probabilitas</h3>
-<p>Menghitung kemungkinan terjadinya suatu persistiwa. Secara umum, probabilitas direpresentasikan dalam bentuk \(\frac{A}{B}\) dimana A adalah total cara terjadinya peristiwa yang diinginkan dan B adalah total cara terjadinya semua peristiwa. Sebagai contoh, jika terdapat \(N\) bola merah dan \(M\) bola biru, dan Anda mengambil tepat 2 bola secara acak, berapa kemungkinan bahwa kedua bola berwarna biru? Banyaknya cara mengambil 2 bola biru adalah \(C^{N}_{2} \) dan banyaknya cara mengambil 2 bola sembarang warna adalah \(C^{N+M}_2 \).</p>
+<p>Menghitung kemungkinan terjadinya suatu persistiwa. Sebagai contoh, jika terdapat \(N\) bola merah dan \(M\) bola biru, dan Anda mengambil tepat 2 bola secara acak, berapa kemungkinan bahwa kedua bola berwarna biru? Banyaknya cara mengambil 2 bola biru adalah \( C^N_2 \) dan banyaknya cara mengambil 2 bola sembarang warna adalah \(C_2^{N+M} \), maka probabilitasnya adalah \( \frac{C^{N}_{2}}{C^{N+M}_2}\) .</p>
 
 <h3 id="prinsip-inklusi-dan-eksklusi">Prinsip Inklusi dan Eksklusi</h3>
 
@@ -98,7 +130,13 @@ Kombinasi adalah banyaknya cara mengambil \(K\) buah objek dari \(N\) pilihan ya
 <p>Segitiga Pascal merupakan susunan dari Koefisien Binomial dalam bentuk segitiga.
 Nilai dari baris ke-n suku ke-r adalah \(A_{ij} = C^{n}_{r}\).</p>
 
-<p>Contoh soal:</p>
+<h4 id="tautan-pendalaman-materi">Tautan Pendalaman Materi:</h4>
+<ul>
+  <li><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/lessons/18/">Materi Kombinatorik TLX Training Gate</a></li>
+  <li><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/lessons/17/">Materi Matematika Diskret TLX Training Gate</a></li>
+</ul>
+
+<h3 id="contoh-soal">Contoh soal:</h3>
 
 <blockquote>
   <p>Anda diberikan sebuah string S. Ada berapa kata berbeda yang dapat disusun dari huruf-huruf penyusun kata S?</p>
@@ -112,67 +150,77 @@ Jawaban 2 : 3360
   <!--more-->
 </blockquote>
 
-<p>Soal tersebut adalah soal kombinatorik. Mari kita selesaikan contoh 2 terlebih dahulu.</p>
-<ul>
-  <li>Terdapat 8 huruf, sehingga banyak kata yang dapat disusun adalah \(8!\).</li>
-  <li>Terdapat 3 huruf ‘G’ sehingga terdapat 6 kata yang kita anggap berbeda ( \(G_{1} G_{2} G_{3} , G_{1} G_{3} G_{2} , \dots , G_{3} G_{2} G_{1} \) ) yang mana seharusnya keenam kata tersebut merupakan kata yang sama.</li>
-  <li>Dengan prinsip Redundansi, maka banyak kata yang dapat disusun mengingat kesamaan kata pada huruf G adalah \(\frac{8!}{3!}\).</li>
-  <li>Perlu kita perhatikan pula bahwa terdapat 2 huruf A, sehingga dengan cara yang sama akan didapatkan banyak kata yang berbeda adalah \(\frac{8!}{(3! \times 2!)} = 3360\).</li>
-</ul>
-
-<p>Maka, solusi secara umum</p>
+<p>Solusi soal tersebut adalah:</p>
 <ul>
   <li>Terdapat N huruf, sehingga banyak kata yang dapat kita susun adalah \(N!\).</li>
   <li>Apabila terdapat K huruf dengan setiap hurufnya memiliki \(R_{i}\) huruf yang sama, maka dengan prinsip Redundansi banyak kata berbeda yang dapat disusun adalah \(\frac{N!}{(R_{1}! \times R_{2}! \times R_{3}! \times … \times R_{K}!)}\).</li>
-  <li>Rumus itulah yang kita kenal dengan Permutasi Elemen Berulang.</li>
 </ul>
 
-<h4 id="tautan-pendalaman-materi">Tautan Pendalaman Materi:</h4>
-<ul>
-  <li><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/lessons/18/">Materi Kombinatorik TLX Training Gate</a></li>
-  <li><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/lessons/17/">Materi Matematika Diskret TLX Training Gate</a></li>
-</ul>
+<p><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/problems/225/">TLX: Faktorisasi Prima</a></p>
+<blockquote>
+  <p>Anda diberikan sebuah bilangan bulat \(N (1 \le N \le 1.000.000)\) . Tentukan bilangan-bilangan prima a1, a2, …, ak dan pangkat-pangkatnya, b1, b2, …, bk, sehingga \(N = a1^{b1} \times a2^{b2} \times \dots \times ak^{bk}\).</p>
+</blockquote>
 
-<h4 id="rekomandasi-soal-soal-latihan">Rekomandasi Soal-soal latihan:</h4>
+<details>
+	<summary>[Solusi]</summary>
+	<p>Cari seluruh faktor prima dari masukan. Kemudian cetak sesuai keinginan.</p>
 
-<ul>
-  <li><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/problems/225/">TLX: Faktorisasi Prima</a>
-    <details>
-  <summary>[Solusi]</summary>
-  Cari seluruh faktor prima dari masukan. Kemudian cetak sesuai keinginan.
-  </details>
-  </li>
-  <li><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/problems/226/">TLX: Penjumlahan Pecahan</a>
-    <details>
-  <summary>[Solusi]</summary>
-  \\(E = \frac{(A \times D + B \times C)}{gcd(C,D)}\\) dan \\(F = \frac{C \times D}{gcd(C,D)}\\)
-  </details>
-  </li>
-  <li><a href="https://training.ia -toki.org/training/curriculums/1/courses/11/chapters/51/problems/227/">TLX: Prima ke-K</a>
-    <details>
-  <summary>[Solusi]</summary>
-  Gunakan Sieve of Erathosthenes untuk menghasilkan 77.777 bilangan prima pertama. Kemudian cetak sesuai masukan.
-  </details>
-  </li>
-  <li><a href="https://training.ia -toki.org/training/curriculums/1/courses/11/chapters/51/problems/228/">TLX: Pasar Rakyat</a>
-    <details>
-  <summary>[Solusi]</summary>
-  Hitung KPK dari seluruh masukan
-  </details>
-  </li>
-  <li><a href="https://training.ia -toki.org/problemsets/70/problems/352/">OSN 2006: Faktorial</a>
-    <details>
-  <summary>[Solusi]</summary>
-  Menghitung nilai asli dari N! tidak memungkinkan karena terlalu besar. Namun, kita cukup mencari banyaknya faktor 2 dan 5 dari N!, karena 2*5 = 10 (menghasilkan digit 0)
-  </details>
-  </li>
-  <li><a href="http://codeforces.com/problemset/problem/478/B">Codeforces: Random Teams</a>
-    <details>
-  <summary>[Solusi]</summary>
-  Untuk pasangan teman minimum, distribusikan tim dengan semerata mungkin. Untuk pasangan teman maksimum, distribusikan tim dengan anggota 1 untuk m -1 tim, dan sisanya di tim terakhir. Banyaknya pasangan teman dari suatu tim dengan anggota X orang adalah kombinasi 2 dari X.
-  </details>
-  </li>
-</ul>
+</details>
+
+<p><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/problems/226/">TLX: Penjumlahan Pecahan</a></p>
+<blockquote>
+  <p>Anda diberikan dua buah pecahan dalam bentuk A/B dan C/D. Hitunglah A/B + C/D, lalu cetak hasilnya dalam bentuk yang paling sederhana. Bentuk paling sederhana dari suatu pecahan adalah ketika FPB dari pembilang dan penyebutnya adalah 1.</p>
+</blockquote>
+
+<details>
+	<summary>[Solusi]</summary>
+	<p>Jawaban adalah dalam bentuk E/F di mana \(E = \frac{(A \times D + B \times C)}{gcd(C,D)}\) dan \(F = \frac{C \times D}{gcd(C,D)}\)</p>
+
+</details>
+
+<p><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/problems/227/">TLX: Prima ke-K</a></p>
+<blockquote>
+  <p>Carilah bilangan prima ke-K. Buatlah program yang efisien agar Anda dapat menjawab pertanyaan tersebut berkali-kali!</p>
+</blockquote>
+
+<details>
+	<summary>[Solusi]</summary>
+	<p>Anda dapat melakukan perulangan dari 1,2,3, dan seterusnya. Pada setiap bilangan, cek apakah bilangan tersebut adalah bilangan prima. Namun, solusi tersebut tidak efisien, mengingat Anda harus mencari bilangan prima ke-K pada banyak nilai K berbeda! Gunakan Sieve of Erathosthenes untuk menghasilkan 77.777 bilangan prima pertama. Kemudian cetak sesuai masukan.</p>
+
+</details>
+
+<p><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/problems/228/">TLX: Pasar Rakyat</a></p>
+<blockquote>
+  <p>Ada N Pedagang yang datang mengunjungi suatu pasar secara periodik dalam beberapa hari sekali. Pedagang ke-i datang setiap \(D_i\) hari sekali. Setiap berapa hari sekali semua pedagang akan datang secara bersamaan?</p>
+</blockquote>
+
+<details>
+	<summary>[Solusi]</summary>
+	<p>Hitung KPK dari seluruh nilai \(D_i\)</p>
+
+</details>
+
+<p><a href="https://training.ia-toki.org/problemsets/70/problems/352/">OSN 2006: Faktorial</a></p>
+<blockquote>
+  <p>Carilah berapa angka 0 berurutan yang mengakhiri \(N!\). Misalnya 10! = 3.628.800, maka jumlah 0 berurutan adalah 2. Sementara 8! = 40.320, maka jumlah 0 berurutan adalah 1 (nol di tengah tidak dihitung).</p>
+</blockquote>
+
+<details>
+	<summary>[Solusi]</summary>
+	<p>Menghitung nilai asli dari N! tidak memungkinkan karena terlalu besar. Namun, kita cukup mencari banyaknya faktor 2 dan 5 dari N!, karena 2*5 = 10 (menghasilkan digit 0)</p>
+
+</details>
+
+<p><a href="http://codeforces.com/problemset/problem/478/B">Codeforces: Random Teams</a></p>
+<blockquote>
+  <p>bla</p>
+</blockquote>
+
+<details>
+	<summary>[Solusi]</summary>
+	<p>Untuk pasangan teman minimum, distribusikan tim dengan semerata mungkin. Untuk pasangan teman maksimum, distribusikan tim dengan anggota 1 untuk m -1 tim, dan sisanya di tim terakhir. Banyaknya pasangan teman dari suatu tim dengan anggota X orang adalah kombinasi 2 dari X.</p>
+
+</details>
 
 
 </div>

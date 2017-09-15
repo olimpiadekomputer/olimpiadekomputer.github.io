@@ -11,7 +11,7 @@ layout: print
 
 		{% for example in section.examples %}
 		<h4> {{example.title}} </h4>
-		<blockquote> {{example.summary}} </blockquote>
+		<blockquote> {{example.summary | markdownify}} </blockquote>
 
 		{% endfor %}
 
