@@ -23,26 +23,77 @@ examples:
 
 ---
 
-Pengurutan melingkupi teknik-teknik mengurutkan data, seperti:
+Dalam OSN, anda diharapkan menguasai teknik mengurutkan data berikut:
 
 ### Bubble sort
 Bubble sort adalah teknik pengurutan data dengan membandingkan suatu elemen dengan elemen yang bersebelahan, dan menukarnya jika urutannya terbalik. Proses ini diulang hingga data terurut.
+
 ### Insertion Sort
 Insertion sort bekerja dengan menyisipkan elemen pada data satu persatu sehingga hasil penyisipan selalu terurut.
 
 ### Counting Sort
 Counting sort dilakukan dengan menghitung berapa kemunculan elemen dengan nilai 1, 2, 3, ..., hingga K. Kemudian, angka tersebut ditampilkan lagi secara terurut.
-
+<!--more-->
+- Perhatikan batasan-batasan dalam soal. Jika elemen-elemen pada soal memiliki range yang terbatas, misalnya umur, atau berat badan, biasanya dapat diurutkan dengan counting sort.
+<!--more-->
 ### Merge Sort dan Quick Sort
 Ini adalah teknik pengurutan lanjutan. Akan dijelaskan pada bab Divide and Conquer
+<!--more-->
+- Anda harus penguasai paling tidak satu teknik pengurutan dengan kompleksitas O(N log N) ini, karena umumnya teknik pengurutan kuadratik terlalu lambat untuk ukuran data pada soal OSN.
+- Merge sort juga dapat digunakan untuk menyelesaikan inversi:
+> Diberikan sebuah array dengan N buah bilangan. Anda ingin mengurutkan array tersebut dengan cara menukar 2 elemen bersebelahan. Berapa pertukaran (swap) minimal yang mungkin untuk mengurutkan array tersebut?
+Jawaban dari soal tersebut adalah total swap yang terjadi saat melakukan merge sort.
 
-Sesuai namanya, pencarian adalah proses mencari suatu elemen pada data. Secara umum terdapat 2 teknik pencarian:
+<!--more-->
+
+Pencarian adalah proses mencari suatu elemen pada data. Secara umum terdapat 2 teknik pencarian yang harus Anda kuasai:
 ### Linear Search
 Linear search adalah proses mencari elemen pada suatu data dengan membandingkan elemen yang ingin dicari pada setiap elemen pada data satu persatu.
+
 ### Binary Search
 Jika data yang ada terurut, maka kita dapat mencari lebih efisien. Pada binary search, kita membandingkan elemen yang ingin dicari pada elemen tengah data. Jika elemen tersebut lebih kecil dari elemen tengah pada data, Anda cukup mencari lagi di separuh pertama data tersebut. Jika tidak, kita cari di separuh terakhir. Proses ini dilakukan hingga elemen ditemukan atau data sudah tidak bisa dibagi lagi.
 
-Contoh soal 1:
+<!--more-->
+- Binary-search tidak hanya digunakan untuk mencari data pada array. Anda bisa memanfaatkan Binary Search untuk mencari nilai dari suatu persamaan. Contohnya: 
+
+CONTOH SOAL BINSER DI RUMUS?
+
+- Binary-search tidak hanya digunakan untuk mencari data. Kadang kala Anda harus melakukan Binary-Search pada jawaban. Salah satu indikasinya adalah jika Anda diminta mencari suatu Angka terkecil (atau terbesar) yang valid dalam suatu sistem tertentu dan jika N valid, maka N+1 dijamin selalu valid. Contohnya:
+
+CONTOH SOAL BINARY SEARCH DI JAWABAN.
+
+#### Tips dan Trik Umum
+
+- Biasanya dalam OSN tidak terdapat soal yang murni hanya pengurutan saja. Namun Anda perlu melakukan pengurutan data dahulu sebelum soal tersebut bisa diselesaikan.
+- Jika Anda hanya perlu mengurutkan data saja, Anda akan menghemat waktu jika menggunakan C++, karena C++ memiliki STL untuk melakukan pengurutan:
+{% highlight c++ %}
+int a[] = {5, 4, 1, 3};
+sort(a, a + 4); /* 4 adalah ukuran array */
+{% endhighlight %}
+
+- Selain itu, Anda juga dapat memanfaatkan STL set pada C++ untuk melakukan pencarian secara efisien. 
+{% highlight cpp %}
+set<int> s;
+s.insert(4); s.insert(7); s.insert(9);
+cout<<a.count(4)<<endl; /* keluaran : 1 */
+cout<<a.count(9)<<endl; /* keluaran : 0 */
+{% endhighlight %}
+
+- Jika Anda memiliki data yang terurut, Anda bisa menggunakan STL pada C++ untuk melakukan binary search.
+{% highlight c++ %}
+int a[] = {1, 2, 5, 10}; /* terurut */
+int idx = lower_bound(a, a + 4, 5) - a;
+cout<<idx<<endl; /* nilainya 3 (index 5 pada array a) */
+{% endhighlight %}
+#### Tautan Pendalaman Materi:
+- [Materi Pengurutan dasar: Bubble Sort, Insertion Sort, dan Counting Sort](https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/16/lessons/13/)
+  
+  catatan: Sorting lanjutan seperti Quick Sort dan Merge Sort akan dipelajari di bab Divide and Conquer
+- [Materi Pencarian TLX Training Gate](https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/15/lessons/12/)
+
+<!--more-->
+
+### Contoh soal Pengurutan dan Pencarian:
 
 > Anda diberikan sebuah array A yang terdiri dari N buah bilangan. Keluarkan array tersebut dalam kondisi terurut menaik.
 > ```
@@ -50,33 +101,11 @@ Contoh soal 1:
 > Jawaban : [3, 6, 7, 10]
 > ```
 
-Contoh soal 2:
-> Anda diberikan sebuah array A yang terdiri dari N buah bilangan, dan sebuah bilangan D. Tentukan indeks dari bilangan D pada array tersebut. Jika D tidak ditemukan, keluarkan -1
-> ```
-> Contoh 1  : A = [10, 7, 3, 6] , D = 7
-> Jawaban 1 : 2
-> 
-> Contoh 1  : A = [10, 7, 3, 6] , D = 9
-> Jawaban 1 : -1
-> ```
-
 <!--more-->
 
-Soal pertama adalah soal pengurutan klasik. Soal ini bisa diselesaikan dengan salah satu teknik pengurutan, misalnya bubble sort.
+Soal ini adalah soal pengurutan klasik. Soal ini bisa diselesaikan dengan salah satu teknik pengurutan, misalnya bubble sort.
 Namun perlu diperhatikan, jika ukuran array cukup besar, maka harus menggunakan teknik pengurutan yang lebih cepat.
 
-Soal kedua adalah soal pencarian. Solusinya adalah dengan melakukan sequential search sebagai berikut:
-- Periksa satu per satu dari sepatu pertama, kedua, ketiga, dan seterusnya.
-- Jika ditemukan, langsung laporkan.
-- Jika sampai akhir belum juga ditemukan, artinya angka yang dicari tidak ada pada daftar.
-
-#### Tautan Pendalaman Materi:
-- [Materi Pengurutan dasar: Bubble Sort, Insertion Sort, dan Counting Sort](https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/16/lessons/13/)
-  
-  catatan: Sorting lanjutan seperti Quick Sort dan Merge Sort akan dipelajari di bab Divide and Conquer
-- [Materi Pencarian TLX Training Gate](https://training.ia-toki.org/training/curriculums/1/courses/1/chapters/15/lessons/12/)
-
-#### Rekomandasi Soal-soal latihan:
 {% for example in page.examples %}
 - [{{example.title}}]({{ example.url }})
 	<details>

@@ -141,58 +141,81 @@ Jawaban 2 : 3360
 	
 		
 		<h2> Pengurutan dan Pencarian </h2>
-		<p>Pengurutan melingkupi teknik-teknik mengurutkan data, seperti:</p>
+		<p>Dalam OSN, anda diharapkan menguasai teknik mengurutkan data berikut:</p>
 
 <h3 id="bubble-sort">Bubble sort</h3>
 <p>Bubble sort adalah teknik pengurutan data dengan membandingkan suatu elemen dengan elemen yang bersebelahan, dan menukarnya jika urutannya terbalik. Proses ini diulang hingga data terurut.</p>
+
 <h3 id="insertion-sort">Insertion Sort</h3>
 <p>Insertion sort bekerja dengan menyisipkan elemen pada data satu persatu sehingga hasil penyisipan selalu terurut.</p>
 
 <h3 id="counting-sort">Counting Sort</h3>
-<p>Counting sort dilakukan dengan menghitung berapa kemunculan elemen dengan nilai 1, 2, 3, …, hingga K. Kemudian, angka tersebut ditampilkan lagi secara terurut.</p>
-
-<h3 id="merge-sort-dan-quick-sort">Merge Sort dan Quick Sort</h3>
-<p>Ini adalah teknik pengurutan lanjutan. Akan dijelaskan pada bab Divide and Conquer</p>
-
-<p>Sesuai namanya, pencarian adalah proses mencari suatu elemen pada data. Secara umum terdapat 2 teknik pencarian:</p>
-<h3 id="linear-search">Linear Search</h3>
-<p>Linear search adalah proses mencari elemen pada suatu data dengan membandingkan elemen yang ingin dicari pada setiap elemen pada data satu persatu.</p>
-<h3 id="binary-search">Binary Search</h3>
-<p>Jika data yang ada terurut, maka kita dapat mencari lebih efisien. Pada binary search, kita membandingkan elemen yang ingin dicari pada elemen tengah data. Jika elemen tersebut lebih kecil dari elemen tengah pada data, Anda cukup mencari lagi di separuh pertama data tersebut. Jika tidak, kita cari di separuh terakhir. Proses ini dilakukan hingga elemen ditemukan atau data sudah tidak bisa dibagi lagi.</p>
-
-<p>Contoh soal 1:</p>
-
-<blockquote>
-  <p>Anda diberikan sebuah array A yang terdiri dari N buah bilangan. Keluarkan array tersebut dalam kondisi terurut menaik.</p>
-  <div class="highlighter-rouge"><pre class="highlight"><code>Contoh  : A = [10, 7, 3, 6]
-Jawaban : [3, 6, 7, 10]
-</code></pre>
-  </div>
-</blockquote>
-
-<p>Contoh soal 2:</p>
-<blockquote>
-  <p>Anda diberikan sebuah array A yang terdiri dari N buah bilangan, dan sebuah bilangan D. Tentukan indeks dari bilangan D pada array tersebut. Jika D tidak ditemukan, keluarkan -1</p>
-  <div class="highlighter-rouge"><pre class="highlight"><code>Contoh 1  : A = [10, 7, 3, 6] , D = 7
-Jawaban 1 : 2
-
-Contoh 1  : A = [10, 7, 3, 6] , D = 9
-Jawaban 1 : -1
-</code></pre>
-  </div>
-</blockquote>
+<p>Counting sort dilakukan dengan menghitung berapa kemunculan elemen dengan nilai 1, 2, 3, …, hingga K. Kemudian, angka tersebut ditampilkan lagi secara terurut.
+<!--more--></p>
+<ul>
+  <li>Perhatikan batasan-batasan dalam soal. Jika elemen-elemen pada soal memiliki range yang terbatas, misalnya umur, atau berat badan, biasanya dapat diurutkan dengan counting sort.
+<!--more-->
+    <h3 id="merge-sort-dan-quick-sort">Merge Sort dan Quick Sort</h3>
+    <p>Ini adalah teknik pengurutan lanjutan. Akan dijelaskan pada bab Divide and Conquer
+<!--more--></p>
+  </li>
+  <li>Anda harus penguasai paling tidak satu teknik pengurutan dengan kompleksitas O(N log N) ini, karena umumnya teknik pengurutan kuadratik terlalu lambat untuk ukuran data pada soal OSN.</li>
+  <li>Merge sort juga dapat digunakan untuk menyelesaikan inversi:
+    <blockquote>
+      <p>Diberikan sebuah array dengan N buah bilangan. Anda ingin mengurutkan array tersebut dengan cara menukar 2 elemen bersebelahan. Berapa pertukaran (swap) minimal yang mungkin untuk mengurutkan array tersebut?
+Jawaban dari soal tersebut adalah total swap yang terjadi saat melakukan merge sort.</p>
+    </blockquote>
+  </li>
+</ul>
 
 <!--more-->
 
-<p>Soal pertama adalah soal pengurutan klasik. Soal ini bisa diselesaikan dengan salah satu teknik pengurutan, misalnya bubble sort.
-Namun perlu diperhatikan, jika ukuran array cukup besar, maka harus menggunakan teknik pengurutan yang lebih cepat.</p>
+<p>Pencarian adalah proses mencari suatu elemen pada data. Secara umum terdapat 2 teknik pencarian yang harus Anda kuasai:</p>
+<h3 id="linear-search">Linear Search</h3>
+<p>Linear search adalah proses mencari elemen pada suatu data dengan membandingkan elemen yang ingin dicari pada setiap elemen pada data satu persatu.</p>
 
-<p>Soal kedua adalah soal pencarian. Solusinya adalah dengan melakukan sequential search sebagai berikut:</p>
+<h3 id="binary-search">Binary Search</h3>
+<p>Jika data yang ada terurut, maka kita dapat mencari lebih efisien. Pada binary search, kita membandingkan elemen yang ingin dicari pada elemen tengah data. Jika elemen tersebut lebih kecil dari elemen tengah pada data, Anda cukup mencari lagi di separuh pertama data tersebut. Jika tidak, kita cari di separuh terakhir. Proses ini dilakukan hingga elemen ditemukan atau data sudah tidak bisa dibagi lagi.</p>
+
+<!--more-->
 <ul>
-  <li>Periksa satu per satu dari sepatu pertama, kedua, ketiga, dan seterusnya.</li>
-  <li>Jika ditemukan, langsung laporkan.</li>
-  <li>Jika sampai akhir belum juga ditemukan, artinya angka yang dicari tidak ada pada daftar.</li>
+  <li>Binary-search tidak hanya digunakan untuk mencari data pada array. Anda bisa memanfaatkan Binary Search untuk mencari nilai dari suatu persamaan. Contohnya:</li>
 </ul>
+
+<p>CONTOH SOAL BINSER DI RUMUS?</p>
+
+<ul>
+  <li>Binary-search tidak hanya digunakan untuk mencari data. Kadang kala Anda harus melakukan Binary-Search pada jawaban. Salah satu indikasinya adalah jika Anda diminta mencari suatu Angka terkecil (atau terbesar) yang valid dalam suatu sistem tertentu dan jika N valid, maka N+1 dijamin selalu valid. Contohnya:</li>
+</ul>
+
+<p>CONTOH SOAL BINARY SEARCH DI JAWABAN.</p>
+
+<h4 id="tips-dan-trik-umum">Tips dan Trik Umum</h4>
+
+<ul>
+  <li>Biasanya dalam OSN tidak terdapat soal yang murni hanya pengurutan saja. Namun Anda perlu melakukan pengurutan data dahulu sebelum soal tersebut bisa diselesaikan.</li>
+  <li>Jika Anda hanya perlu mengurutkan data saja, Anda akan menghemat waktu jika menggunakan C++, karena C++ memiliki STL untuk melakukan pengurutan:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="kt">int</span> <span class="n">a</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">};</span>
+<span class="n">sort</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">a</span> <span class="o">+</span> <span class="mi">4</span><span class="p">);</span> <span class="cm">/* 4 adalah ukuran array */</span></code></pre></figure>
+
+<ul>
+  <li>Selain itu, Anda juga dapat memanfaatkan STL set pada C++ untuk melakukan pencarian secara efisien.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">set</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">s</span><span class="p">;</span>
+<span class="n">s</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">4</span><span class="p">);</span> <span class="n">s</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">7</span><span class="p">);</span> <span class="n">s</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">9</span><span class="p">);</span>
+<span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">a</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span> <span class="cm">/* keluaran : 1 */</span>
+<span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">a</span><span class="p">.</span><span class="n">count</span><span class="p">(</span><span class="mi">9</span><span class="p">)</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span> <span class="cm">/* keluaran : 0 */</span></code></pre></figure>
+
+<ul>
+  <li>Jika Anda memiliki data yang terurut, Anda bisa menggunakan STL pada C++ untuk melakukan binary search.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="kt">int</span> <span class="n">a</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">};</span> <span class="cm">/* terurut */</span>
+<span class="kt">int</span> <span class="n">idx</span> <span class="o">=</span> <span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">a</span> <span class="o">+</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span> <span class="o">-</span> <span class="n">a</span><span class="p">;</span>
+<span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">idx</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span> <span class="cm">/* nilainya 3 (index 5 pada array a) */</span></code></pre></figure>
 
 <h4 id="tautan-pendalaman-materi">Tautan Pendalaman Materi:</h4>
 <ul>
@@ -206,8 +229,38 @@ Namun perlu diperhatikan, jika ukuran array cukup besar, maka harus menggunakan 
   </li>
 </ul>
 
-<h4 id="rekomandasi-soal-soal-latihan">
-</h4>
+<!--more-->
+
+<h3 id="contoh-soal-pengurutan-dan-pencarian">Contoh soal Pengurutan dan Pencarian:</h3>
+
+<blockquote>
+  <p>Anda diberikan sebuah array A yang terdiri dari N buah bilangan. Keluarkan array tersebut dalam kondisi terurut menaik.</p>
+  <div class="highlighter-rouge"><pre class="highlight"><code>Contoh  : A = [10, 7, 3, 6]
+Jawaban : [3, 6, 7, 10]
+</code></pre>
+  </div>
+</blockquote>
+
+<!--more-->
+
+<p>Soal ini adalah soal pengurutan klasik. Soal ini bisa diselesaikan dengan salah satu teknik pengurutan, misalnya bubble sort.
+Namun perlu diperhatikan, jika ukuran array cukup besar, maka harus menggunakan teknik pengurutan yang lebih cepat.</p>
+
+<ul>
+  <li><a href="https://training.ia-toki.org/problemsets/66/problems/332/">OSN 2009: Paduan Suara</a>
+    <details>
+  <summary>[Solusi]</summary>
+  Lakukan pengurutan terhadap tinggi suara bebek-bebek. Jika terdapat N bebek dan kita ingin bagi dalam K kelompok, maka tiap kelompok minimal terdiri dari \\(A = \lfloor\frac{N}{K} \rfloor\\) anggota. Dari data yang sudah terurut, kita hanya perlu mencari elemen dengan index \\(A, 2A, 3A, ..., (K-1)A\\)
+  </details>
+  </li>
+  <li><a href="https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/52/problems/232/">OSN 2015: Pertahanan Yogya</a>
+    <details>
+  <summary>[Solusi]</summary>
+  Kita tentukan nilai \\(Z_i\\), yang artinya banyaknya kemampuan tambahan yang diperlukan sebelum kita bisa mengalahkan musuh ke-i. Nilai ini bisa dicari dengan menggunakan binary search. Setelah itu, urutkan musuh-musuh berdasarkan nilai \\(Z_i\\) mereka. Setelah itu, cukup lakukan simulasi untuk menentukan jawaban.
+  </details>
+  </li>
+</ul>
+
 
 		<h3> Soal Latihan </h3>
 
@@ -445,7 +498,9 @@ Jawaban 1 :  2 (6 + 6)
 	
 		
 		<h2> Struktur Data Linear </h2>
-		<p>Struktur data linear adalah struktur data yang dibangun pada array. Dalam OSN, terdapat 2 struktur data linear yang masuk dalam kurikulum:</p>
+		<iframe src="https://docs.google.com/viewerng/viewer?url=https://github.com/ia-toki/training-gate-id-pdf/raw/master/pemrograman-kompetitif-dasar_07-struktur-data-dasar.pdf&amp;embedded=true" width="100%" height="480px"></iframe>
+
+<p>Struktur data linear adalah struktur data yang dibangun pada array. Dalam OSN, terdapat 2 struktur data linear yang masuk dalam kurikulum:</p>
 <h3 id="queue">Queue</h3>
 <p>Queue adalah struktur data dimana kita dapat memasukkan elemen, dan mengeluarkan elemen sesuai dengan urutan masukknya. Pada Queue, elemen yang pertama dikeluarkan adalah elemen yang pertama kali masuk, mirip seperti antrian dalam dunia nyata.</p>
 
