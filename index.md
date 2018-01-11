@@ -1,25 +1,62 @@
 ---
-layout: default
-title: Home
+layout: single
+sidebar:
+  nav: "side"
 ---
 
-### Pengantar
+Kami Ikatan Alumni TOKI (IA-TOKI) mengumpulkan sumber-sumber yang dapat Anda manfaatkan untuk membantu persiapan OSN. Tujuan kami adalah agar setiap siswa memiliki kesempatan yang sama dalam berkompetisi, terutama teman-teman yang mungkin belum memiliki akses fasilitas seperti guru, senior yang pernah menjuarai olimpiade, ataupun dana untuk mengikuti pelatihan OSN.
 
-Kami percaya bahwa semua orang berhak memiliki kesempatan yang sama untuk memenangkan OSN.
-Kami juga sadar bahwa tak semua orang memiliki akses pengajar ataupun kesempatan mengikuti pelatihan OSN.
-Oleh karena itu, kami dari __Ikatan Alumni Tim Olimpiade Komputer Indonesia__ membuat website ini sebagai salah satu fasilitas pembelajaran mandiri.
+## Persiapan OSK/OSP {#osp}
 
-Di website ini terdapat __kurikulum resmi OSN Informatika__ yang terkini, beserta penjelasan masing-masing bab. Setiap babnya kami sediakan rekomendasi sarana pembelajaran untuk menguasai topik tersebut. Selain itu, dilengkapi juga dengan contoh-contoh soal relevan serta petunjuk untuk meyelesaikan soal tersebut.
+Pada tingkat kota/provinsi, Anda akan mengerjakan soal-soal matematika dan logika. Berikut adalah sumber-sumber yang dapat Anda manfaatkan.
+
+### Pendalaman Materi {#osp-materi}
+
+menyusul
 
 
-# [Belajar Algoritma dan Struktur Data](/algoritma/)
+### Latihan {#osp-latihan}
+
+| Sumber | Catatan |
+|:--|:--|
+| [Kujawab.com](https://www.kujawab.com/) | Kujawab.com adalah situs yang berisi soal-soal OSK/OSP/OSN berbagai bidang, termasuk komputer. Selain itu, terdapat juga jawaban dari soal-soal yang ada. Sayangnya, Kujawab sudah tidak diperbaharui lagi sejak 2016.  |
+
+## Persiapan OSN {#osn}
+
+Berbeda dengan OSK/OSP, pada tingkat nasional Anda akan menyelesaikan soal praktek, yaitu pemrograman. OSN dilaksanakan selama 2 hari, yang mana masing-masing hari akan terdapat 3-4 soal pemrograman yang harus Anda kerjakan dalam 5 jam.
+
+### Belajar Pemrograman {#osn-materi-koding}
+
+Tentu Anda harus menguasai salah satu bahasa pemrograman yang digunakan pada OSN, yaitu *Pascal, C/C++*.
 
 
-### Sarana Pembelajaran Mandiri Lainnya
-Selain website ini, berikut adalah daftar sarana belajar persiapan olimpiade yang kami sarankan. Semua sarana ini bisa kalian manfaatkan secara mandiri atau tanpa pengajar
- - [TLX Training Gate](https://training.ia-toki.org) 
-   
-   Online Judge resmi milik TOKI. Terdapat kumpulan-kumpulan soal-soal pemrograman yang bisa kalian coba langsung pada website ini
- - [Kujawab.com](https://kujawab.com) 
-   
-   Berisi soal-soal OSP dan OSK, dilengkapi dengan solusi dari sesama pengguna
+| Sumber| Catatan |
+|:--|:--|
+| [Slide Training Gate oleh TOKI](https://github.com/ia-toki/training-gate-id-pdf/archive/master.zip) | Ini adalah *slide* yang berisi pembelajaran pemrograman dasar menggunakan Pascal.  |
+
+### Belajar Algoritma {#osn-materi-algo}
+
+Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituliskan dalam bentuk program. 
+
+|----------
+| Sumber | Catatan |
+|:--|:--|
+| [Slide Training Gate oleh TOKI](https://github.com/ia-toki/training-gate-id-pdf/archive/master.zip) | Ini adalah *slide* yang berisi pembelajaran pemrograman kompetitif dasar.  |
+
+
+### Latihan {#osn-latihan}
+
+| Sumber| Catatan |
+|:--|:--|
+| [TLX Training Gate](https://training.ia-toki.org) | Anda dapat mencoba mengerjakan soal-soal kompetisi lokal seperti OSN di TLX. Selain itu, TLX menyelenggarakan TOKI Open Contest secara berkala. |
+
+## Lain-Lain {#lain-lain}
+
+menyusul
+
+
+
+
+
+
+

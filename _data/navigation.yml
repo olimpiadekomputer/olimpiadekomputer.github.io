@@ -1,0 +1,30 @@
+# main links
+main:
+  - title: "TLX"
+    url: https://training.ia-toki.org/
+  - title: "TOKI"
+    url: https://www.toki.or.id/
+  - title: "IA-TOKI"
+    url: https://www.ia-toki.org/
+
+
+
+side:
+  - title: "Persiapan OSK/OSP"
+    url: '#osp'
+    children:
+      - title: Pendalaman Materi
+        url: '#osp-materi'
+      - title: "Latihan"
+        url: '#osp-latihan'
+  - title: "Persiapan OSN"
+    url: '#osn'
+    children:
+      - title: Belajar Pemrograman
+        url: '#osn-materi-koding'
+      - title: Belajar Algoritma
+        url: '#osn-materi-algo'
+      - title: Latihan
+        url: '#osn-latihan'
+  - title: "TLX Training Gate"
+    url: "https://training.ia-toki.org"
