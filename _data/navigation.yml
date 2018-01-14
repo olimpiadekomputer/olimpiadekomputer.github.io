@@ -13,18 +13,25 @@ side:
   - title: "Persiapan OSK/OSP"
     url: '#osp'
     children:
-      - title: Pendalaman Materi
-        url: '#osp-materi'
-      - title: "Latihan"
+      - title: Materi Logika dan Matematika
+        url: '#materi-logika'
+      - title: Materi Pemrograman
+        url: '#materi-koding'
+      - title: "Latihan Soal"
         url: '#osp-latihan'
   - title: "Persiapan OSN"
     url: '#osn'
     children:
-      - title: Belajar Pemrograman
-        url: '#osn-materi-koding'
-      - title: Belajar Algoritma
-        url: '#osn-materi-algo'
-      - title: Latihan
+      - title: Materi Algoritma
+        url: '#materi-algo'
+      - title: Latihan Soal
         url: '#osn-latihan'
+  - title: "Lain-lain"
+    url: '#lain-lain'
+    children:
+      - title: Forum Diskusi
+        url: '#forum'
+      - title: Kisah OSN
+        url: '#kisah-osn'
   - title: "TLX Training Gate"
     url: "https://training.ia-toki.org"
