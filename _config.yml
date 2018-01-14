@@ -10,6 +10,12 @@ github_username:  jekyll
 # SEO
 google_site_verification: 5NFkq82KvSC_u1zEZD0Dh6qFvxJ7MSi0XLZt5PxjhF4
 
+# Analytics
+analytics:
+  provider: google-universal
+  google:
+    tracking_id : UA-112466233-1
+
 # Build settings
 markdown: kramdown
 # theme: jekyll-theme-minimal
