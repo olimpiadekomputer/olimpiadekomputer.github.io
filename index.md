@@ -28,7 +28,7 @@ Pada OSK, Anda akan diminta membaca _pseudocode_ dan menebak output. Pada OSP, A
 | :--- | :--- | :--- |
 | [Kujawab.com](https://www.kujawab.com/) | Arsip Soal | Kujawab.com adalah situs yang berisi soal-soal OSK/OSP/OSN berbagai bidang, termasuk komputer. Selain itu, terdapat juga jawaban dari soal-soal yang ada. Sayangnya, Kujawab sudah tidak diperbaharui lagi sejak 2016. |
 
-## test {#osn}
+
 
 ## Persiapan OSN {#osn}
 
