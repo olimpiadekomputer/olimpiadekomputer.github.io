@@ -64,14 +64,14 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 
 | Sumber | Tahun |
 | :--- | :--- |
-| [William Gozali](https://kupaskode.blogspot.co.id/2013/07/kisah-perjalanan-di-toki-saya-dan-osn.html) | OSN 2009 |
-| [Frederikus Hudi](https://lintaor1.wordpress.com/2011/05/19/sekolah-atau-olimpiade/) | OSN 2009 |
-| [Rasmunandar Rustam](https://nandarustam.wordpress.com/2010/12/28/silver-medal-osn-informatika-2010-medan/) | OSN 2010 |
-| [Jessica Handojo](https://there10han.wordpress.com/2010/08/09/god-saved-me/) | OSN 2010 |
-| [Pusaka Kaleb Setyabudhi](https://sokokaleb.wordpress.com/2012/10/06/a-late-story/) | OSN 2012 |
-| [Josua Aditya Mustiko](https://knightsaber77.wordpress.com/2014/09/08/my-osn-journey-day-1/) | OSN 2014 |
-| [Muhammad Ayaz Dzukfikar](http://ayazdzulfikar.blogspot.co.id/search/label/OSN) | OSN 2014 |
-| [Glenda Emanuella Sutanto](http://glendaesutanto.blogspot.co.id/2016/06/osn-2016-day-1-opening-practice-session.html) | OSN 2016 |
-| [Reynaldo Wijaya Hendry](http://rwhendry.blogspot.co.id/2016/06/pak-dengklek-cari-masalah-di-palembang.html) | OSN 2016 |
 | [Galangkangin Gotera](http://galangblog12.blogspot.co.id/search/label/OSN) | OSN 2017 |
 | [Muhammad Faishol Amirul Mukminin](http://faishol.net/2017/08/olimpiade-sains-nasional-2017/) | OSN 2017 |
+| [Glenda Emanuella Sutanto](http://glendaesutanto.blogspot.co.id/2016/06/osn-2016-day-1-opening-practice-session.html) | OSN 2016 |
+| [Reynaldo Wijaya Hendry](http://rwhendry.blogspot.co.id/2016/06/pak-dengklek-cari-masalah-di-palembang.html) | OSN 2016 |
+| [Muhammad Ayaz Dzukfikar](http://ayazdzulfikar.blogspot.co.id/search/label/OSN) | OSN 2014 |
+| [Josua Aditya Mustiko](https://knightsaber77.wordpress.com/2014/09/08/my-osn-journey-day-1/) | OSN 2014 |
+| [Pusaka Kaleb Setyabudi](https://sokokaleb.wordpress.com/2012/10/06/a-late-story/) | OSN 2012 |
+| [Jessica Handojo](https://there10han.wordpress.com/2010/08/09/god-saved-me/) | OSN 2010 |
+| [Rasmunandar Rustam](https://nandarustam.wordpress.com/2010/12/28/silver-medal-osn-informatika-2010-medan/) | OSN 2010 |
+| [Frederikus Hudi](https://lintaor1.wordpress.com/2011/05/19/sekolah-atau-olimpiade/) | OSN 2009 |
+| [William Gozali](https://kupaskode.blogspot.co.id/2013/07/kisah-perjalanan-di-toki-saya-dan-osn.html) | OSN 2009 |
