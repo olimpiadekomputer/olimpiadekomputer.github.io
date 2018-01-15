@@ -42,8 +42,8 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 | :--- | :--- | :--- |
 | [Slide Training Gate oleh TOKI](https://github.com/ia-toki/training-gate-id-pdf/archive/master.zip) | Slide | Ini adalah _slide_ yang berisi pembelajaran pemrograman kompetitif dasar. |
 | [VisuAlgo](https://visualgo.net) | Website | Website yang berisikan visualisasi dari algoritma-algoritma populer. |
-| [Competitive Programmer's Handbook oleh Antti Laaksonen](https://cses.fi/book.html) | Buku | Sebuah buku pemrograman kompetitif dalam bahasa Inggris yang dapat diunduh secara gratis. |
-| [Competitive Programming 3 oleh Steven Halim](https://cpbook.net/) | Buku | Sebuah buku berbayar yang berisikan tentang kumpulan algoritma beserta soalnya. Buku ini dituliskan dalam bahasa Inggris. Anda dapat mengunduh versi satunya secara gratis. |
+| [Competitive Programmer's Handbook oleh Antti Laaksonen](https://cses.fi/book.html) | Buku | Sebuah buku pemrograman kompetitif dalam bahasa Inggris yang dapat diunduh secara gratis. Buku ini memuat dasar-dasar pemrograman kompetitif seperti fitur-fitur C++ yang dapat Anda gunakan di OSN. Buku ini ditulis untuk peserta IOI dan ICPC sehingga Anda tidak perlu membaca keseluruhan buku ini. |
+| [Competitive Programming 3 oleh Steven Halim](https://cpbook.net/) | Buku | Sebuah buku berbayar yang berisikan tentang kumpulan algoritma beserta soalnya dalam bahasa Inggris. Anda dapat mengunduh versi satunya secara gratis. Sama seperti Competitive Programmer's Handbook, buku CP3 ini dibuat untuk peserta IOI dan ICPC sehingga anda harus memilah materi-materi yang harus Anda pelajari sesuai silabus OSN. |
 
 ### Latihan Soal {#osn-latihan}
 
