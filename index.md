@@ -29,6 +29,7 @@ Pada OSK, Anda akan diminta membaca _pseudocode_ dan menebak output. Pada OSP, A
 | :--- | :--- | :--- |
 | [Kujawab.com](https://www.kujawab.com/) | Arsip Soal | Kujawab.com adalah situs yang berisi soal-soal OSK/OSP/OSN berbagai bidang, termasuk komputer. Selain itu, terdapat juga jawaban dari soal-soal yang ada. Sayangnya, Kujawab sudah tidak diperbaharui lagi sejak 2016. |
 | [Catatan Olimpiade Informatika](https://www.youtube.com/channel/UCe1X38BE3kIjsoxqv2r8oog) | Video | Akun Youtube yang memuat pembahasan soal-soal OSK dan OSP terdahulu. |
+| [Pembahasan OSK 2017](https://drive.google.com/file/d/1QosnA9smsbpaZnHFi6u1kXkR3ohH3nx9) | File | Pembahasan OSK 2017 yang dibuat oleh tim pelatih DKI Jakarta. |
 
 ## Persiapan OSN {#osn}
 
@@ -70,8 +71,18 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 | [Reynaldo Wijaya Hendry](http://rwhendry.blogspot.co.id/2016/06/pak-dengklek-cari-masalah-di-palembang.html) | OSN 2016 |
 | [Muhammad Ayaz Dzukfikar](http://ayazdzulfikar.blogspot.co.id/search/label/OSN) | OSN 2014 |
 | [Josua Aditya Mustiko](https://knightsaber77.wordpress.com/2014/09/08/my-osn-journey-day-1/) | OSN 2014 |
+| [Windi Chandra](http://codebie.blogspot.co.id/2015/07/perjalanan-saya-hingga-osn-2014.html) | OSN 2014 |
 | [Pusaka Kaleb Setyabudi](https://sokokaleb.wordpress.com/2012/10/06/a-late-story/) | OSN 2012 |
 | [Jessica Handojo](https://there10han.wordpress.com/2010/08/09/god-saved-me/) | OSN 2010 |
 | [Rasmunandar Rustam](https://nandarustam.wordpress.com/2010/12/28/silver-medal-osn-informatika-2010-medan/) | OSN 2010 |
 | [Frederikus Hudi](https://lintaor1.wordpress.com/2011/05/19/sekolah-atau-olimpiade/) | OSN 2009 |
 | [William Gozali](https://kupaskode.blogspot.co.id/2013/07/kisah-perjalanan-di-toki-saya-dan-osn.html) | OSN 2009 |
+
+### Beasiswa dan Jalur Kuliah {#beasiswa-dan-jalur-kuliah}
+
+| Universitas |
+| :--- |
+| [Bina Nusantara](http://binus.ac.id/binus-8000-beasiswa/) |
+| [Institut Pertanian Bogor](http://admisi.ipb.ac.id/p/single/pin) |
+| [Universitas Gajah Mada](http://um.ugm.ac.id/v.2015/id_home.php?l=aWRfcGFnZSMxNTEyMDUjSmFsdXIgUEJVQiMxI1Byb2dyYW0gU2FyamFuYQ==) |
+| [Universitas Indonesia](http://www.ui.ac.id/pengantar-pendaftaran/program-olimpiade-sains.html) |
