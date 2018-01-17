@@ -31,6 +31,8 @@ side:
     children:
       - title: Forum Diskusi
         url: '#forum'
+      - title: Beasiswa dan Jalur Kuliah
+        url: '#beasiswa-dan-jalur-kuliah'
       - title: Kisah OSN
         url: '#kisah-osn'
   - title: "TLX Training Gate"

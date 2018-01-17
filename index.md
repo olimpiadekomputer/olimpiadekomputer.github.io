@@ -61,6 +61,16 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 | [Facebook Olimpiade Informatika Indonesia](https://www.facebook.com/groups/olimpinfo/) | Grup | Sebuah grup yang berisikan para alumni serta sesama peserta OSN. Anda dapat bertanya hal-hal yang berkaitan dengan OSN di sini. |
 | [Line Olimpiade Informatika Indonesia (@olimpinfo)](http://line.me/ti/p/%40xtf2128i) | Official Account Line | Official account Line milik IA-TOKI yang membagikan informasi-informasi seputar OSN. Anda dapat bertanya kepada admin melalui *personal chat*. |
 
+### Beasiswa dan Jalur Kuliah {#beasiswa-dan-jalur-kuliah}
+
+| Program | Oleh | Keterangan |
+| :--- | :--- |
+| [Widia Scholarship](http://binus.ac.id/binus-8000-beasiswa/) | Bina Nusantara University | Beasiswa bagi pemenang olimpiade nasional dan internasional. Beasiswa berupa bantuan biaya-biaya kuliah |
+| [Penerimaan Mahasiswa Baru Jalur Prestasi Internasional dan Nasional](http://admisi.ipb.ac.id/p/single/pin) | Institut Pertanian Bogor | Jalur penerimaan mahasiswa baru yang dikhususkan bagi siswa berprestasi |
+| [Penelusuran Bibit Unggul Berprestasi](http://um.ugm.ac.id/v.2015/id_home.php?l=aWRfcGFnZSMxNTEyMDUjSmFsdXIgUEJVQiMxI1Byb2dyYW0gU2FyamFuYQ==) | Universitas Gajah Mada | Jalur penerimaan mahasiswa baru yang dikhususkan bagi penerima medali olimpiade nasional dan internasional |
+| [Program Olimpiade Sains](http://www.ui.ac.id/pengantar-pendaftaran/program-olimpiade-sains.html) | Universitas Indonesia | Jalur penerimaan mahasiswa baru yang dikhususkan bagi penerima medali olimpiade nasional dan internasional |
+
+
 ### Kisah OSN {#kisah-osn}
 
 | Sumber | Tahun |
@@ -78,11 +88,4 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 | [Frederikus Hudi](https://lintaor1.wordpress.com/2011/05/19/sekolah-atau-olimpiade/) | OSN 2009 |
 | [William Gozali](https://kupaskode.blogspot.co.id/2013/07/kisah-perjalanan-di-toki-saya-dan-osn.html) | OSN 2009 |
 
-### Beasiswa dan Jalur Kuliah {#beasiswa-dan-jalur-kuliah}
 
-| Universitas |
-| :--- |
-| [Bina Nusantara](http://binus.ac.id/binus-8000-beasiswa/) |
-| [Institut Pertanian Bogor](http://admisi.ipb.ac.id/p/single/pin) |
-| [Universitas Gajah Mada](http://um.ugm.ac.id/v.2015/id_home.php?l=aWRfcGFnZSMxNTEyMDUjSmFsdXIgUEJVQiMxI1Byb2dyYW0gU2FyamFuYQ==) |
-| [Universitas Indonesia](http://www.ui.ac.id/pengantar-pendaftaran/program-olimpiade-sains.html) |
