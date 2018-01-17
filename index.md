@@ -65,10 +65,10 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 
 | Program | Oleh | Keterangan |
 | :--- | :--- |
-| [Widia Scholarship](http://binus.ac.id/binus-8000-beasiswa/) | Bina Nusantara University | Beasiswa bagi pemenang olimpiade nasional dan internasional. Beasiswa berupa bantuan biaya-biaya kuliah |
-| [Penerimaan Mahasiswa Baru Jalur Prestasi Internasional dan Nasional](http://admisi.ipb.ac.id/p/single/pin) | Institut Pertanian Bogor | Jalur penerimaan mahasiswa baru yang dikhususkan bagi siswa berprestasi |
-| [Penelusuran Bibit Unggul Berprestasi](http://um.ugm.ac.id/v.2015/id_home.php?l=aWRfcGFnZSMxNTEyMDUjSmFsdXIgUEJVQiMxI1Byb2dyYW0gU2FyamFuYQ==) | Universitas Gajah Mada | Jalur penerimaan mahasiswa baru yang dikhususkan bagi penerima medali olimpiade nasional dan internasional |
-| [Program Olimpiade Sains](http://www.ui.ac.id/pengantar-pendaftaran/program-olimpiade-sains.html) | Universitas Indonesia | Jalur penerimaan mahasiswa baru yang dikhususkan bagi penerima medali olimpiade nasional dan internasional |
+| [Widia Scholarship](http://binus.ac.id/binus-8000-beasiswa/) | Bina Nusantara University | Beasiswa bagi pemenang olimpiade nasional dan internasional. Beasiswa berupa bantuan biaya-biaya kuliah. |
+| [Penerimaan Mahasiswa Baru Jalur Prestasi Internasional dan Nasional](http://admisi.ipb.ac.id/p/single/pin) | Institut Pertanian Bogor | Jalur penerimaan mahasiswa baru yang dikhususkan bagi siswa berprestasi. |
+| [Penelusuran Bibit Unggul Berprestasi](http://um.ugm.ac.id/v.2015/id_home.php?l=aWRfcGFnZSMxNTEyMDUjSmFsdXIgUEJVQiMxI1Byb2dyYW0gU2FyamFuYQ==) | Universitas Gajah Mada | Jalur penerimaan mahasiswa baru yang dikhususkan bagi penerima medali olimpiade nasional dan internasional. |
+| [Program Olimpiade Sains](http://www.ui.ac.id/pengantar-pendaftaran/program-olimpiade-sains.html) | Universitas Indonesia | Jalur bebas tes yang dikhususkan bagi peserta pelatnas 2 TOKI. |
 
 
 ### Kisah OSN {#kisah-osn}
