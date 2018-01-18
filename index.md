@@ -4,7 +4,7 @@ sidebar:
   nav: side
 ---
 
-Kami Ikatan Alumni TOKI \(IA-TOKI\) mengumpulkan sumber-sumber yang dapat Anda manfaatkan untuk membantu persiapan OSK-OSP-OSN Komputer/Informatika. Tujuan kami adalah agar setiap siswa memiliki kesempatan yang sama dalam berkompetisi, terutama teman-teman yang mungkin belum memiliki akses fasilitas seperti guru, senior yang pernah menjuarai olimpiade, ataupun dana untuk mengikuti pelatihan OSN.
+Kami Ikatan Alumni TOKI \(IA-TOKI\) mengumpulkan sumber-sumber yang dapat Anda manfaatkan untuk membantu persiapan OSK/OSP/OSN Komputer/Informatika. Tujuan kami adalah agar setiap siswa memiliki kesempatan yang sama dalam berkompetisi, terutama teman-teman yang mungkin belum memiliki akses fasilitas seperti guru, senior yang pernah menjuarai olimpiade, ataupun dana untuk mengikuti pelatihan OSN.
 
 ## Persiapan OSK/OSP {#osp}
 
@@ -21,7 +21,7 @@ Pada OSK, Anda akan diminta membaca _pseudocode_ dan menebak output. Pada OSP, A
 
 ### Latihan Soal {#osp-latihan}
 
-Soal-soal OSK/OSP merupakan soal matematika dan logika. Untuk mengasah kemampuan logika Anda, disarankan banyak berlatih mengerjakan soal-soal.
+Untuk mengasah kemampuan logika Anda, disarankan banyak berlatih mengerjakan soal-soal.
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
