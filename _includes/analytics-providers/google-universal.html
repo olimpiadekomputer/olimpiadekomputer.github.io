@@ -6,4 +6,10 @@
 
   ga('create', '{{ site.analytics.google.tracking_id }}', 'auto');
   ga('send', 'pageview');
+
+  $(document).ready(function() {
+    $("a").click(function() {
+      ga('send', 'event', 'Outbound link', 'click', $(this).attr('href'));
+    });
+  });
 </script>
