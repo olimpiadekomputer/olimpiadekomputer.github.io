@@ -4,15 +4,11 @@ sidebar:
   nav: side
 ---
 
-Kami Ikatan Alumni TOKI \(IA-TOKI\) mengumpulkan sumber-sumber yang dapat Anda manfaatkan untuk membantu persiapan OSN. Tujuan kami adalah agar setiap siswa memiliki kesempatan yang sama dalam berkompetisi, terutama teman-teman yang mungkin belum memiliki akses fasilitas seperti guru, senior yang pernah menjuarai olimpiade, ataupun dana untuk mengikuti pelatihan OSN.
+Kami Ikatan Alumni TOKI \(IA-TOKI\) mengumpulkan sumber-sumber yang dapat Anda manfaatkan untuk membantu persiapan OSK-OSP-OSN Komputer/Informatika. Tujuan kami adalah agar setiap siswa memiliki kesempatan yang sama dalam berkompetisi, terutama teman-teman yang mungkin belum memiliki akses fasilitas seperti guru, senior yang pernah menjuarai olimpiade, ataupun dana untuk mengikuti pelatihan OSN.
 
 ## Persiapan OSK/OSP {#osp}
 
-Pada tingkat kota/provinsi, Anda akan mengerjakan soal-soal matematika dan logika. Berikut adalah sumber-sumber yang dapat Anda manfaatkan.
-
-### Materi Logika dan Matematika {#materi-logika}
-
-menyusul
+Pada tingkat kota/provinsi, Anda akan mengerjakan soal-soal matematika dan logika.
 
 ### Materi Pemrograman {#materi-koding}
 
@@ -24,6 +20,8 @@ Pada OSK, Anda akan diminta membaca _pseudocode_ dan menebak output. Pada OSP, A
 | [Belajar C++ oleh Guntur Budi](https://www.youtube.com/playlist?list=PLF82-I80PwDNKmeyYBe4CkEj7excOdy7f) | Video  | Merupakan sebuah *playlist* Youtube yang berisi video-video untuk memulai pemrograman dalam bahasa C++. |
 
 ### Latihan Soal {#osp-latihan}
+
+Soal-soal OSK/OSP merupakan soal matematika dan logika. Untuk mengasah kemampuan logika Anda, disarankan banyak berlatih mengerjakan soal-soal.
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
@@ -43,14 +41,15 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 | :--- | :--- | :--- |
 | [Slide Training Gate oleh TOKI](https://github.com/ia-toki/training-gate-id-pdf/archive/master.zip) | Slide | Ini adalah _slide_ yang berisi pembelajaran pemrograman kompetitif dasar. |
 | [VisuAlgo](https://visualgo.net) | Website | Website yang berisikan visualisasi dari algoritma-algoritma populer. |
-| [Competitive Programmer's Handbook oleh Antti Laaksonen](https://cses.fi/book.html) | Buku | Sebuah buku pemrograman kompetitif dalam bahasa Inggris yang dapat diunduh secara gratis. Buku ini memuat dasar-dasar pemrograman kompetitif seperti fitur-fitur C++ yang dapat Anda gunakan di OSN. Buku ini ditulis untuk peserta IOI dan ICPC sehingga Anda tidak perlu membaca keseluruhan buku ini. |
-| [Competitive Programming 3 oleh Steven Halim](https://cpbook.net/) | Buku | Sebuah buku berbayar yang berisikan tentang kumpulan algoritma beserta soalnya dalam bahasa Inggris. Anda dapat mengunduh versi satunya secara gratis. Sama seperti Competitive Programmer's Handbook, buku CP3 ini dibuat untuk peserta IOI dan ICPC sehingga anda harus memilah materi-materi yang harus Anda pelajari sesuai silabus OSN. |
+| [Competitive Programmer's Handbook oleh Antti Laaksonen](https://cses.fi/book.html) | Buku | Sebuah buku pemrograman kompetitif dalam bahasa Inggris yang dapat diunduh secara gratis. Buku ini ditulis untuk peserta tingkat internasional dan kompetisi mahasiswa sehingga Anda tidak perlu membaca keseluruhan buku ini. |
+| [Competitive Programming 3 oleh Steven Halim](https://cpbook.net/) | Buku | Sebuah buku berbayar yang berisikan tentang kumpulan algoritma beserta soalnya dalam bahasa Inggris. Anda dapat mengunduh versi pertama secara gratis. Buku ini juga dibuat untuk peserta tingkat internasional dan kompetisi mahasiswa sehingga anda harus memilah materi yang Anda pelajari. |
 
 ### Latihan Soal {#osn-latihan}
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
-| [TLX Training Gate](https://training.ia-toki.org) | Online Judge | Anda dapat mencoba mengerjakan soal-soal kompetisi lokal seperti OSN di TLX. Selain itu, TLX menyelenggarakan TOKI Open Contest secara berkala. |
+| [TLX Training Gate](https://training.ia-toki.org) | Online Judge | Anda dapat mencoba mengerjakan soal-soal dari kompetisi lokal terdahulu seperti OSN. Selain itu, TLX menyelenggarakan TOKI Open Contest secara berkala. |
+| [Hackerrank](https://www.hackerrank.com/contests/cp-tutorial/challenges) | Online Judge | Kumpulan soal-soal pemrograman yang sudah dibagi berdasarkan algoritma dan kesulitan. |
 
 ## Lain-Lain {#lain-lain}
 
@@ -58,7 +57,7 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
-| [Facebook Olimpiade Informatika Indonesia](https://www.facebook.com/groups/olimpinfo/) | Grup | Sebuah grup yang berisikan para alumni serta sesama peserta OSN. Anda dapat bertanya hal-hal yang berkaitan dengan OSN di sini. |
+| [Facebook Olimpiade Informatika Indonesia](https://www.facebook.com/groups/olimpinfo/) | Grup Facebook | Sebuah grup yang berisikan para alumni serta sesama peserta OSN. Anda dapat bertanya hal-hal yang berkaitan dengan OSN di sini. |
 | [Line Olimpiade Informatika Indonesia (@olimpinfo)](http://line.me/ti/p/%40xtf2128i) | Official Account Line | Official account Line milik IA-TOKI yang membagikan informasi-informasi seputar OSN. Anda dapat bertanya kepada admin melalui *personal chat*. |
 
 ### Beasiswa dan Jalur Kuliah {#beasiswa-dan-jalur-kuliah}
