@@ -13,8 +13,6 @@ side:
   - title: "Persiapan OSK/OSP"
     url: '#osp'
     children:
-      - title: Materi Logika dan Matematika
-        url: '#materi-logika'
       - title: Materi Pemrograman
         url: '#materi-koding'
       - title: "Latihan Soal"
