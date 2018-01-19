@@ -55,12 +55,16 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 
 ### Forum Diskusi {#forum}
 
+Media berikut dapat digunakan untuk diskusi tentang ide penyelesaian soal dan seputar kompetisi pemrograman.
+
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
 | [Facebook Olimpiade Informatika Indonesia](https://www.facebook.com/groups/olimpinfo/) | Grup Facebook | Sebuah grup yang berisikan para alumni serta sesama peserta OSN. Anda dapat bertanya hal-hal yang berkaitan dengan OSN di sini. |
 | [Line Olimpiade Informatika Indonesia (@olimpinfo)](http://line.me/ti/p/%40xtf2128i) | Official Account Line | Official account Line milik IA-TOKI yang membagikan informasi-informasi seputar OSN. Anda dapat bertanya kepada admin melalui *personal chat*. |
 
 ### Beasiswa dan Jalur Kuliah {#beasiswa-dan-jalur-kuliah}
+
+Berikut adalah beberapa beasiswa dan jalur kuliah yang ditawarkan universitas di Indonesia bagi peraih medali OSN.
 
 | Program | Oleh | Keterangan |
 | :--- | :--- |
@@ -71,6 +75,8 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 
 
 ### Kisah OSN {#kisah-osn}
+
+Untuk memperoleh gambaran tentang OSN, simak pengalaman peserta OSN terdahulu yang mereka tulis.
 
 | Sumber | Tahun |
 | :--- | :--- |
