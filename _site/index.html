@@ -411,6 +411,11 @@
       <td style="text-align: left">Online Judge</td>
       <td style="text-align: left">Kumpulan soal-soal pemrograman yang sudah dibagi berdasarkan algoritma dan kesulitan.</td>
     </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://codeforces.com/problemset?order=BY_SOLVED_DESC">Codeforces</a></td>
+      <td style="text-align: left">Online Judge</td>
+      <td style="text-align: left">Merupakan platform yang menyelenggarakan kontes pemrograman secara berkala. Anda dapat mengerjakan soal-soal kontes lampau sebagai sarana berlatih.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -454,22 +459,27 @@
     <tr>
       <td style="text-align: left"><a href="http://binus.ac.id/binus-8000-beasiswa/">Widia Scholarship</a></td>
       <td style="text-align: left">Bina Nusantara University</td>
-      <td>Beasiswa bagi pemenang olimpiade nasional dan internasional. Beasiswa berupa bantuan biaya-biaya kuliah</td>
+      <td>Beasiswa bagi pemenang olimpiade nasional dan internasional. Beasiswa berupa bantuan biaya-biaya kuliah.</td>
     </tr>
     <tr>
       <td style="text-align: left"><a href="http://admisi.ipb.ac.id/p/single/pin">Penerimaan Mahasiswa Baru Jalur Prestasi Internasional dan Nasional</a></td>
       <td style="text-align: left">Institut Pertanian Bogor</td>
-      <td>Jalur penerimaan mahasiswa baru yang dikhususkan bagi siswa berprestasi</td>
+      <td>Jalur penerimaan mahasiswa baru yang dikhususkan bagi siswa berprestasi.</td>
     </tr>
     <tr>
       <td style="text-align: left"><a href="http://um.ugm.ac.id/v.2015/id_home.php?l=aWRfcGFnZSMxNTEyMDUjSmFsdXIgUEJVQiMxI1Byb2dyYW0gU2FyamFuYQ==">Penelusuran Bibit Unggul Berprestasi</a></td>
       <td style="text-align: left">Universitas Gajah Mada</td>
-      <td>Jalur penerimaan mahasiswa baru yang dikhususkan bagi penerima medali olimpiade nasional dan internasional</td>
+      <td>Jalur penerimaan mahasiswa baru yang dikhususkan bagi penerima medali olimpiade nasional dan internasional.</td>
     </tr>
     <tr>
       <td style="text-align: left"><a href="http://www.ui.ac.id/pengantar-pendaftaran/program-olimpiade-sains.html">Program Olimpiade Sains</a></td>
       <td style="text-align: left">Universitas Indonesia</td>
-      <td>Jalur penerimaan mahasiswa baru yang dikhususkan bagi penerima medali olimpiade nasional dan internasional</td>
+      <td>Jalur penerimaan mahasiswa baru yang dikhususkan bagi penerima medali olimpiade nasional dan internasional.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="http://umn.ac.id/jalur-beasiswa/">Beasiswa Olimpiade Sains</a></td>
+      <td style="text-align: left">Universitas Multimedia Nusantara</td>
+      <td>Bebas tes masuk bagi seluruh peserta OSN, serta pembebasan uang pangkal bagi pemeroleh medali.</td>
     </tr>
   </tbody>
 </table>
@@ -594,6 +604,12 @@
 
   ga('create', 'UA-112466233-1', 'auto');
   ga('send', 'pageview');
+
+  $(document).ready(function() {
+    $("a").click(function() {
+      ga('send', 'event', 'Outbound link', 'click', $(this).attr('href'));
+    });
+  });
 </script>
 
 
