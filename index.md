@@ -25,7 +25,7 @@ Untuk mengasah kemampuan logika Anda, disarankan banyak berlatih mengerjakan soa
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
-| [Kujawab.com](https://www.kujawab.com/) | Arsip Soal | Kujawab.com adalah situs yang berisi soal-soal OSK/OSP/OSN berbagai bidang, termasuk komputer. Selain itu, terdapat juga jawaban dari soal-soal yang ada. Sayangnya, Kujawab sudah tidak diperbaharui lagi sejak 2016. |
+| [Kujawab.com](https://www.kujawab.com/) | Arsip Soal | Kujawab.com adalah situs yang berisi soal-soal OSK/OSP/OSN berbagai bidang, termasuk komputer. Selain itu, terdapat juga jawaban dari soal-soal yang ada. |
 | [Catatan Olimpiade Informatika](https://www.youtube.com/channel/UCe1X38BE3kIjsoxqv2r8oog) | Video | Akun Youtube yang memuat pembahasan soal-soal OSK dan OSP terdahulu. |
 | [Pembahasan OSK 2017](https://drive.google.com/file/d/1QosnA9smsbpaZnHFi6u1kXkR3ohH3nx9) | File | Pembahasan OSK 2017 yang dibuat oleh tim pelatih DKI Jakarta. |
 
