@@ -96,3 +96,7 @@ Untuk memperoleh gambaran tentang OSN, simak pengalaman peserta OSN terdahulu ya
 | [William Gozali](https://kupaskode.blogspot.co.id/2013/07/kisah-perjalanan-di-toki-saya-dan-osn.html) | OSN 2009 |
 
 
+Laman ini dikelola oleh Ikatan Alumni TOKI. Jika Anda menemukan kesalahan, atau memiliki saran, silakan laporkan ke content@ia-toki.org
+
+
+
