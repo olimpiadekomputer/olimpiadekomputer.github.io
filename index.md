@@ -1,7 +1,7 @@
 ---
 layout: single
 sidebar:
-  nav: side
+ nav: side
 ---
 
 Kami Ikatan Alumni TOKI \(IA-TOKI\) mengumpulkan sumber-sumber yang dapat Anda manfaatkan untuk membantu persiapan OSK/OSP/OSN Komputer/Informatika. Tujuan kami adalah agar setiap siswa memiliki kesempatan yang sama dalam berkompetisi, terutama teman-teman yang mungkin belum memiliki akses fasilitas seperti guru, senior yang pernah menjuarai olimpiade, ataupun dana untuk mengikuti pelatihan OSN.
@@ -27,7 +27,6 @@ Untuk mengasah kemampuan logika Anda, disarankan banyak berlatih mengerjakan soa
 | :--- | :--- | :--- |
 | [Kujawab.com](https://www.kujawab.com/) | Arsip Soal | Kujawab.com adalah situs yang berisi soal-soal OSK/OSP/OSN berbagai bidang, termasuk komputer. Selain itu, terdapat juga jawaban dari soal-soal yang ada. |
 | [Catatan Olimpiade Informatika](https://www.youtube.com/channel/UCe1X38BE3kIjsoxqv2r8oog) | Video | Akun Youtube yang memuat pembahasan soal-soal OSK dan OSP terdahulu. |
-| [Pembahasan OSK 2017](https://drive.google.com/file/d/1QosnA9smsbpaZnHFi6u1kXkR3ohH3nx9) | File | Pembahasan OSK 2017 yang dibuat oleh tim pelatih DKI Jakarta. |
 
 ## Persiapan OSN {#osn}
 
