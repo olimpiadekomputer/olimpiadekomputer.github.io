@@ -25,7 +25,8 @@ Untuk mengasah kemampuan logika Anda, disarankan banyak berlatih mengerjakan soa
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
-| [Kujawab.com](https://www.kujawab.com/) | Arsip Soal | Kujawab.com adalah situs yang berisi soal-soal OSK/OSP/OSN berbagai bidang, termasuk komputer. Selain itu, terdapat juga jawaban dari soal-soal yang ada. |
+| [Arsip Soal Olimpiade](/arsip) | Arsip Soal | Download soal-soal OSK - OSP - OSN dalam format pdf. |
+| [Kujawab.com](https://www.kujawab.com/) | Arsip Soal | Tempat berdiskusi dan jawaban-jawaban soal-soal OSK/OSP/OSN dari sesama pengguna. |
 | [Catatan Olimpiade Informatika](https://www.youtube.com/channel/UCe1X38BE3kIjsoxqv2r8oog) | Video | Akun Youtube yang memuat pembahasan soal-soal OSK dan OSP terdahulu. |
 
 ## Persiapan OSN {#osn}
@@ -47,6 +48,7 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
+| [Arsip Soal Olimpiade](/arsip) | Arsip Soal | Download soal-soal OSK - OSP - OSN dalam format pdf. |
 | [TLX Training Gate](https://training.ia-toki.org) | Online Judge | Anda dapat mencoba mengerjakan soal-soal dari kompetisi lokal terdahulu seperti OSN. Selain itu, TLX menyelenggarakan TOKI Open Contest secara berkala. |
 | [Hackerrank](https://www.hackerrank.com/contests/cp-tutorial/challenges) | Online Judge | Kumpulan soal-soal pemrograman yang sudah dibagi berdasarkan algoritma dan kesulitan. |
 | [Codeforces](http://codeforces.com/problemset?order=BY_SOLVED_DESC) | Online Judge | Merupakan platform yang menyelenggarakan kontes pemrograman secara berkala. Anda dapat mengerjakan soal-soal kontes lampau sebagai sarana berlatih. |

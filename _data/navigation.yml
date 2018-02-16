@@ -33,5 +33,8 @@ side:
         url: '#beasiswa-dan-jalur-kuliah'
       - title: Kisah OSN
         url: '#kisah-osn'
+  - title: "Arsip Soal"
+    url: '/arsip'
+    text: blabla
   - title: "TLX Training Gate"
     url: "https://training.ia-toki.org"

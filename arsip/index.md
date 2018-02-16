@@ -50,3 +50,5 @@ Pembahasan OSK/OSP kami sambungkan ke kujawab.com. Kami juga cantumkan tautan ke
 | [Soal OSK 2006](OSK2006.pdf) | - | - |
 | [Soal OSP 2006](OSP2006.pdf) | - | - |
 | [Soal OSN 2006](OSN2006.pdf) | - | [Kerjakan OSN 2006](https://training.ia-toki.org/problemsets/70/problems) |
+{: .osn-table }
+
