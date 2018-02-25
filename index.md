@@ -10,6 +10,14 @@ Kami Ikatan Alumni TOKI \(IA-TOKI\) mengumpulkan sumber-sumber yang dapat Anda m
 
 Pada tingkat kota/provinsi, Anda akan mengerjakan soal-soal matematika dan logika.
 
+### Materi Matematika {#materi-matematika}
+
+Pada OSK dan OSP anda diminta menyelesaikan soal matematika dan logika.
+
+| Sumber | Bentuk | Catatan |
+| :--- | :--- | :--- |
+| [Web Wardaya College](https://www.wardayacollege.com/#matematika) | Video | Video pembelajaran matematika dasar oleh Anton Wardaya. Tidak semua materi pada web tersebut akan diujikan pada olimpiade informatika. Pelajari bab-bab yang terkait seperti Aritmatika, Logika dan Peluang. |
+
 ### Materi Pemrograman {#materi-koding}
 
 Pada OSK, Anda akan diminta membaca _pseudocode_ dan menebak output. Pada OSP, Anda akan diberikan soal pemrograman dan harus diselesaikan dengan program tertulis.
