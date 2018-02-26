@@ -16,7 +16,7 @@ Pada OSK dan OSP anda diminta menyelesaikan soal matematika dan logika.
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
-| [Web Wardaya College](https://www.wardayacollege.com/#matematika) | Video | Video pembelajaran matematika dasar oleh Anton Wardaya. Tidak semua materi pada web tersebut akan diujikan pada olimpiade informatika. Pelajari bab-bab yang terkait seperti Aritmatika, Logika dan Peluang. |
+| [Web Wardaya College](https://www.wardayacollege.com/matematika/) | Video | Video pembelajaran matematika dasar oleh Anton Wardaya. Tidak semua materi pada web tersebut akan diujikan pada olimpiade informatika. Pelajari bab-bab yang terkait seperti Aritmatika, Logika dan Peluang. |
 
 ### Materi Pemrograman {#materi-koding}
 
