@@ -6,6 +6,10 @@ sidebar:
 
 Kami Ikatan Alumni TOKI \(IA-TOKI\) mengumpulkan sumber-sumber yang dapat Anda manfaatkan untuk membantu persiapan OSK/OSP/OSN Komputer/Informatika. Tujuan kami adalah agar setiap siswa memiliki kesempatan yang sama dalam berkompetisi, terutama teman-teman yang mungkin belum memiliki akses fasilitas seperti guru, senior yang pernah menjuarai olimpiade, ataupun dana untuk mengikuti pelatihan OSN.
 
+
+> Berikut adalah [Silabus Materi OSN tahun 2018](Kisi-kisi Materi_OSN_Informatika-Komputer_v.2018.pdf). Pada tahun ini, ada materi baru yang masuk ke OSN, yaitu *Minimum Spanning Tree* dan *Shortest Path*.
+
+
 ## Persiapan OSK/OSP {#osp}
 
 Pada tingkat kota/provinsi, Anda akan mengerjakan soal-soal matematika dan logika.
