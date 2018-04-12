@@ -52,9 +52,10 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
 | [Slide Training Gate oleh TOKI](https://github.com/ia-toki/training-gate-id-pdf/archive/master.zip) | Slide | Ini adalah _slide_ yang berisi pembelajaran pemrograman kompetitif dasar. |
-| [VisuAlgo](https://visualgo.net) | Website | Website yang berisikan visualisasi dari algoritma-algoritma populer. |
+| [Pemrograman Kompetitif Dasar](https://osn.toki.id/arsip/download-pkd) | Buku | Buku persiapan OSN yang ditulis langsung oleh Ikatan Alumni Tim Olimpiade Komputer Indonesia. Buku ini berfokus pada algoritma-algoritma yang masuk dalam silabus OSN. |
 | [Competitive Programmer's Handbook oleh Antti Laaksonen](https://cses.fi/book.html) | Buku | Sebuah buku pemrograman kompetitif dalam bahasa Inggris yang dapat diunduh secara gratis. Buku ini ditulis untuk peserta tingkat internasional dan kompetisi mahasiswa sehingga Anda tidak perlu membaca keseluruhan buku ini. |
 | [Competitive Programming 3 oleh Steven Halim](https://cpbook.net/) | Buku | Sebuah buku berbayar yang berisikan tentang kumpulan algoritma beserta soalnya dalam bahasa Inggris. Anda dapat mengunduh versi pertama secara gratis. Buku ini juga dibuat untuk peserta tingkat internasional dan kompetisi mahasiswa sehingga anda harus memilah materi yang Anda pelajari. |
+| [VisuAlgo](https://visualgo.net) | Website | Website yang berisikan visualisasi dari algoritma-algoritma populer. |
 
 ### Latihan Soal {#osn-latihan}
 
