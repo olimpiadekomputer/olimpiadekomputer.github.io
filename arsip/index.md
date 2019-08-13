@@ -14,6 +14,9 @@ Pembahasan OSK/OSP kami sambungkan ke kujawab.com. Kami juga cantumkan tautan ke
 
 | Soal | Pembahasan |  |
 | :--- | :--- | :--- |
+| [Soal OSK 2019](OSK2019.pdf) | [Pembahasan OSK 2019](https://www.kujawab.com/OSKKOM19) | - |
+| [Soal OSP 2019](OSP2019.pdf) | [Pembahasan OSP 2019](https://www.kujawab.com/OSPKOM19) | - |
+| [Soal OSN 2019](OSN2019.pdf) | [Pembahasan OSN 2019](OSN2019Pembahasan.pdf) | [Kerjakan OSN 2019](https://training.ia-toki.org/archives/66) |
 | [Soal OSK 2018](OSK2018.pdf) | [Pembahasan OSK 2018](https://www.kujawab.com/OSKKOM18) | - |
 | [Soal OSP 2018](OSP2018.pdf) | [Pembahasan OSP 2018](https://www.kujawab.com/OSPKOM18) | - |
 | [Soal OSN 2018](OSN2018.pdf) | [Pembahasan OSN 2018](OSN2018Pembahasan.pdf) | [Kerjakan OSN 2018](https://training.ia-toki.org/archives/53) |
