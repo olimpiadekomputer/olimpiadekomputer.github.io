@@ -29,6 +29,7 @@ Pada OSK, Anda akan diminta membaca _pseudocode_ dan menebak output. Pada OSP, A
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
 | [Slide Training Gate oleh TOKI](https://github.com/ia-toki/training-gate-id-pdf/archive/master.zip) | Slide | Ini adalah _slide_ yang berisi pembelajaran pemrograman dasar menggunakan Pascal. |
+| [Seri Persiapan OSN Informatika Pemrograman](https://www.youtube.com/playlist?list=PL42SmLrOBFuRoDXatrv1PajCbt2ejb2Gn) | Video | *Playlist* Youtube berisi materi pemrograman C++. Karena disiapkan langsung oleh IA-TOKI, materi yang disampaikan akan mengikuti kurikulum di TLX Training Gate |
 | [Belajar C++ oleh Guntur Budi](https://www.youtube.com/playlist?list=PLF82-I80PwDNKmeyYBe4CkEj7excOdy7f) | Video  | Merupakan sebuah *playlist* Youtube yang berisi video-video untuk memulai pemrograman dalam bahasa C++. |
 
 ### Latihan Soal {#osp-latihan}
