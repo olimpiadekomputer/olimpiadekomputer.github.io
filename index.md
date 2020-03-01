@@ -4,13 +4,13 @@ sidebar:
  nav: side
 ---
 
-Kami Ikatan Alumni TOKI \(IA-TOKI\) mengumpulkan sumber-sumber yang dapat Anda manfaatkan untuk membantu persiapan OSK/OSP/OSN Komputer/Informatika. Tujuan kami adalah agar setiap siswa memiliki kesempatan yang sama dalam berkompetisi, terutama teman-teman yang mungkin belum memiliki akses fasilitas seperti guru, senior yang pernah menjuarai olimpiade, ataupun dana untuk mengikuti pelatihan OSN.
+Kami Ikatan Alumni TOKI \(IA-TOKI\) mengumpulkan sumber-sumber yang dapat Anda manfaatkan untuk membantu persiapan OSK/OSP/OSN Komputer/Informatika (Semenjak 2020 disebut juga KSN-K, KSN-P, atau KSN). Tujuan kami adalah agar setiap siswa memiliki kesempatan yang sama dalam berkompetisi, terutama teman-teman yang mungkin belum memiliki akses fasilitas seperti guru, senior yang pernah menjuarai olimpiade, ataupun dana untuk mengikuti pelatihan OSN/KSN.
 
 
-> Berikut adalah [Silabus Materi OSN tahun 2018](Kisi-kisi Materi_OSN_Informatika-Komputer_v.2018.pdf). Pada tahun ini, ada materi baru yang masuk ke OSN, yaitu *Minimum Spanning Tree* dan *Shortest Path*.
+> Berikut adalah [Silabus Materi OSN/KSN tahun 2018](Kisi-kisi Materi_OSN_Informatika-Komputer_v.2018.pdf). Pada tahun ini, ada materi baru yang masuk ke OSN/KSN, yaitu *Minimum Spanning Tree* dan *Shortest Path*.
 
 
-## Persiapan OSK/OSP {#osp}
+## Persiapan OSK/OSP (KSN-K/KSN-P) {#osp}
 
 Pada tingkat kota/provinsi, Anda akan mengerjakan soal-soal matematika dan logika.
 
@@ -29,7 +29,7 @@ Pada OSK, Anda akan diminta membaca _pseudocode_ dan menebak output. Pada OSP, A
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
 | [Slide Training Gate oleh TOKI](https://github.com/ia-toki/training-gate-id-pdf/archive/master.zip) | Slide | Ini adalah _slide_ yang berisi pembelajaran pemrograman dasar menggunakan Pascal. |
-| [Seri Persiapan OSN Informatika Pemrograman](https://www.youtube.com/playlist?list=PL42SmLrOBFuRoDXatrv1PajCbt2ejb2Gn) | Video | *Playlist* Youtube berisi materi pemrograman C++. Karena disiapkan langsung oleh IA-TOKI, materi yang disampaikan akan mengikuti kurikulum di TLX Training Gate |
+| [Seri Persiapan OSN/KSN Informatika Pemrograman](https://www.youtube.com/playlist?list=PL42SmLrOBFuRoDXatrv1PajCbt2ejb2Gn) | Video | *Playlist* Youtube berisi materi pemrograman C++. Karena disiapkan langsung oleh IA-TOKI, materi yang disampaikan akan mengikuti kurikulum di TLX Training Gate |
 | [Belajar C++ oleh Guntur Budi](https://www.youtube.com/playlist?list=PLF82-I80PwDNKmeyYBe4CkEj7excOdy7f) | Video  | Merupakan sebuah *playlist* Youtube yang berisi video-video untuk memulai pemrograman dalam bahasa C++. |
 
 ### Latihan Soal {#osp-latihan}
@@ -38,22 +38,22 @@ Untuk mengasah kemampuan logika Anda, disarankan banyak berlatih mengerjakan soa
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
-| [Arsip Soal Olimpiade](/arsip) | Arsip Soal | Download soal-soal OSK - OSP - OSN dalam format pdf. |
-| [Kujawab.com](https://www.kujawab.com/) | Arsip Soal | Tempat berdiskusi dan jawaban-jawaban soal-soal OSK/OSP/OSN dari sesama pengguna. |
+| [Arsip Soal Olimpiade](/arsip) | Arsip Soal | Download soal-soal OSK - OSP - OSN (KSN) dalam format pdf. |
+| [Kujawab.com](https://www.kujawab.com/) | Arsip Soal | Tempat berdiskusi dan jawaban-jawaban soal-soal OSK/OSP/OSN/KSN dari sesama pengguna. |
 | [Catatan Olimpiade Informatika](https://www.youtube.com/channel/UCe1X38BE3kIjsoxqv2r8oog) | Video | Akun Youtube yang memuat pembahasan soal-soal OSK dan OSP terdahulu. |
 
-## Persiapan OSN {#osn}
+## Persiapan OSN/KSN {#osn}
 
-Berbeda dengan OSK/OSP, pada tingkat nasional Anda akan menyelesaikan soal praktek, yaitu pemrograman. OSN dilaksanakan selama 2 hari, yang mana masing-masing hari akan terdapat 3-4 soal pemrograman yang harus Anda kerjakan dalam 5 jam.
+Berbeda dengan OSK/OSP, pada tingkat nasional Anda akan menyelesaikan soal praktek, yaitu pemrograman. OSN/KSN dilaksanakan selama 2 hari, yang mana masing-masing hari akan terdapat 3-4 soal pemrograman yang harus Anda kerjakan dalam 5 jam.
 
 ### Belajar Algoritma {#materi-algo}
 
-Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituliskan dalam bentuk program.
+Pada OSN/KSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituliskan dalam bentuk program.
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
 | [Slide Training Gate oleh TOKI](https://github.com/ia-toki/training-gate-id-pdf/archive/master.zip) | Slide | Ini adalah _slide_ yang berisi pembelajaran pemrograman kompetitif dasar. |
-| [Pemrograman Kompetitif Dasar](https://osn.toki.id/arsip/download-pkd) | Buku | Buku persiapan OSN yang ditulis langsung oleh Ikatan Alumni Tim Olimpiade Komputer Indonesia. Buku ini berfokus pada algoritma-algoritma yang masuk dalam silabus OSN. |
+| [Pemrograman Kompetitif Dasar](https://osn.toki.id/arsip/download-pkd) | Buku | Buku persiapan OSN/KSN yang ditulis langsung oleh Ikatan Alumni Tim Olimpiade Komputer Indonesia. Buku ini berfokus pada algoritma-algoritma yang masuk dalam silabus OSN/KSN. |
 | [Competitive Programmer's Handbook oleh Antti Laaksonen](https://cses.fi/book.html) | Buku | Sebuah buku pemrograman kompetitif dalam bahasa Inggris yang dapat diunduh secara gratis. Buku ini ditulis untuk peserta tingkat internasional dan kompetisi mahasiswa sehingga Anda tidak perlu membaca keseluruhan buku ini. |
 | [Competitive Programming 3 oleh Steven Halim](https://cpbook.net/) | Buku | Sebuah buku berbayar yang berisikan tentang kumpulan algoritma beserta soalnya dalam bahasa Inggris. Anda dapat mengunduh versi pertama secara gratis. Buku ini juga dibuat untuk peserta tingkat internasional dan kompetisi mahasiswa sehingga anda harus memilah materi yang Anda pelajari. |
 | [VisuAlgo](https://visualgo.net) | Website | Website yang berisikan visualisasi dari algoritma-algoritma populer. |
@@ -62,8 +62,8 @@ Pada OSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan dituli
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
-| [Arsip Soal Olimpiade](/arsip) | Arsip Soal | Download soal-soal OSK - OSP - OSN dalam format pdf. |
-| [TLX Training Gate](https://training.ia-toki.org) | Online Judge | Anda dapat mencoba mengerjakan soal-soal dari kompetisi lokal terdahulu seperti OSN. Selain itu, TLX menyelenggarakan TOKI Open Contest secara berkala. |
+| [Arsip Soal Olimpiade](/arsip) | Arsip Soal | Download soal-soal OSK - OSP - OSN / KSN dalam format pdf. |
+| [TLX Training Gate](https://training.ia-toki.org) | Online Judge | Anda dapat mencoba mengerjakan soal-soal dari kompetisi lokal terdahulu seperti OSN/KSN. Selain itu, TLX menyelenggarakan TOKI Open Contest secara berkala. |
 | [Hackerrank](https://www.hackerrank.com/contests/cp-tutorial/challenges) | Online Judge | Kumpulan soal-soal pemrograman yang sudah dibagi berdasarkan algoritma dan kesulitan. |
 | [Codeforces](http://codeforces.com/problemset?order=BY_SOLVED_DESC) | Online Judge | Merupakan platform yang menyelenggarakan kontes pemrograman secara berkala. Anda dapat mengerjakan soal-soal kontes lampau sebagai sarana berlatih. |
 
@@ -75,12 +75,12 @@ Media berikut dapat digunakan untuk diskusi tentang ide penyelesaian soal dan se
 
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
-| [Facebook Olimpiade Informatika Indonesia](https://www.facebook.com/groups/olimpinfo/) | Grup Facebook | Sebuah grup yang berisikan para alumni serta sesama peserta OSN. Anda dapat bertanya hal-hal yang berkaitan dengan OSN di sini. |
-| [Line Olimpiade Informatika Indonesia (@olimpinfo)](http://line.me/ti/p/%40xtf2128i) | Official Account Line | Official account Line milik IA-TOKI yang membagikan informasi-informasi seputar OSN. Anda dapat bertanya kepada admin melalui *personal chat*. |
+| [Facebook Olimpiade Informatika Indonesia](https://www.facebook.com/groups/olimpinfo/) | Grup Facebook | Sebuah grup yang berisikan para alumni serta sesama peserta OSN/KSN. Anda dapat bertanya hal-hal yang berkaitan dengan OSN/KSN di sini. |
+| [Line Olimpiade Informatika Indonesia (@olimpinfo)](http://line.me/ti/p/%40xtf2128i) | Official Account Line | Official account Line milik IA-TOKI yang membagikan informasi-informasi seputar OSN/KSN. Anda dapat bertanya kepada admin melalui *personal chat*. |
 
 ### Beasiswa dan Jalur Kuliah {#beasiswa-dan-jalur-kuliah}
 
-Berikut adalah beberapa beasiswa dan jalur kuliah yang ditawarkan universitas di Indonesia bagi peraih medali OSN.
+Berikut adalah beberapa beasiswa dan jalur kuliah yang ditawarkan universitas di Indonesia bagi peraih medali OSN/KSN.
 
 | Program | Oleh | Keterangan |
 | :--- | :--- |
