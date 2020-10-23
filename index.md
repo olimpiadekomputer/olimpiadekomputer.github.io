@@ -63,7 +63,7 @@ Pada OSN/KSN, Anda akan diuji kemampuan memecahkan masalah secara efisien dan di
 | Sumber | Bentuk | Catatan |
 | :--- | :--- | :--- |
 | [Arsip Soal Olimpiade](/arsip) | Arsip Soal | Download soal-soal OSK - OSP - OSN / KSN dalam format pdf. |
-| [TLX Training Gate](https://training.ia-toki.org) | Online Judge | Anda dapat mencoba mengerjakan soal-soal dari kompetisi lokal terdahulu seperti OSN/KSN. Selain itu, TLX menyelenggarakan TOKI Open Contest secara berkala. |
+| [TLX Training Gate](https://tlx.toki.id) | Online Judge | Anda dapat mencoba mengerjakan soal-soal dari kompetisi lokal terdahulu seperti OSN/KSN. Selain itu, TLX menyelenggarakan TOKI Open Contest secara berkala. |
 | [Hackerrank](https://www.hackerrank.com/contests/cp-tutorial/challenges) | Online Judge | Kumpulan soal-soal pemrograman yang sudah dibagi berdasarkan algoritma dan kesulitan. |
 | [Codeforces](http://codeforces.com/problemset?order=BY_SOLVED_DESC) | Online Judge | Merupakan platform yang menyelenggarakan kontes pemrograman secara berkala. Anda dapat mengerjakan soal-soal kontes lampau sebagai sarana berlatih. |
 
