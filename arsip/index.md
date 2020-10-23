@@ -14,6 +14,9 @@ Pembahasan OSK/OSP kami sambungkan ke kujawab.com. Kami juga cantumkan tautan ke
 
 | Soal | Pembahasan |  |
 | :--- | :--- | :--- |
+| [Soal KSN-K 2019](KSNK2020.pdf) | - | - |
+| [Soal KSN-P 2019](KSNP2020.pdf) | - | - |
+| [Soal KSN 2019](KSN2020.pdf) | - | [Kerjakan KSN 2020](https://tlx.toki.id/problems/ksn-2020) |
 | [Soal OSK 2019](OSK2019.pdf) | - | - |
 | [Soal OSP 2019](OSP2019.pdf) | [Pembahasan OSP 2019](https://docs.google.com/document/d/1p3TncIO-klesAS0TdAWYwLLRCVenVzP4F3Kgf6MU7Jg/edit?usp=sharing) | - |
 | [Soal OSN 2019](OSN2019.pdf) | [Pembahasan OSN 2019](OSN2019Pembahasan.pdf) | [Kerjakan OSN 2019](https://tlx.toki.id/problems/osn-2019) |
